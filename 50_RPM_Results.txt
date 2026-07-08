@@ -1,0 +1,977 @@
+Script started on Thu Apr 10 12:06:43 2025
+[1m[7m%[27m[1m[0m                                                                                                             
+ 
+
+[0m[27m[24m[J(base) makaylanovitske@MacBook-Air ML_code % [K[?2004hexit"/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/bin/python" "/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/ML_menu_options.py"[K[?2004l
+
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+1
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+1
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Frequency Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Logistic Regression Model:
+
+Mean Squared Error: 0.03828665840285782
+R2 Score: -0.1062691381220886
+
+Fault Categorization Performance Metrics for Linear Regression Model:
+
+Mean Squared Error: 135.22325333568705
+R2 Score: -0.08050731979816117
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+1
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+2
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Frequency Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Linear Regression Model:
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.96      1.00      0.98       188
+
+    accuracy                           0.96       195
+   macro avg       0.48      0.50      0.49       195
+weighted avg       0.93      0.96      0.95       195
+
+Logistic Regression Confusion matrix: 
+[[  0   7]
+ [  0 188]]
+
+Fault CategorizationPerformance Metrics for Logistic Regression Model:
+
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         3
+         2.0       0.00      0.00      0.00         7
+         3.0       0.00      0.00      0.00         4
+         4.0       0.00      0.00      0.00         2
+         5.0       0.00      0.00      0.00         5
+         6.0       0.00      0.00      0.00         4
+         7.0       0.14      0.33      0.20         3
+         8.0       0.00      0.00      0.00         2
+         9.0       0.06      0.25      0.10         4
+        10.0       0.00      0.00      0.00         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.00      0.00      0.00         6
+        13.0       0.00      0.00      0.00         5
+        14.0       0.00      0.00      0.00         3
+        15.0       0.00      0.00      0.00         9
+        16.0       0.00      0.00      0.00         3
+        17.0       0.00      0.00      0.00         6
+        18.0       0.00      0.00      0.00         4
+        19.0       0.00      0.00      0.00         4
+        20.0       0.00      0.00      0.00         6
+        21.0       0.00      0.00      0.00         3
+        22.0       0.00      0.00      0.00         2
+        23.0       0.04      0.50      0.08         2
+        24.0       0.00      0.00      0.00         7
+        25.0       0.00      0.00      0.00         6
+        26.0       0.00      0.00      0.00         2
+        27.0       0.00      0.00      0.00         5
+        28.0       0.00      0.00      0.00         6
+        29.0       0.00      0.00      0.00         4
+        30.0       0.00      0.00      0.00         8
+        31.0       0.00      0.00      0.00         9
+        32.0       0.00      0.00      0.00         6
+        33.0       0.00      0.00      0.00         3
+        34.0       0.00      0.00      0.00         9
+        35.0       0.00      0.00      0.00         7
+        36.0       0.00      0.00      0.00         7
+        37.0       0.00      0.00      0.00         5
+        38.0       0.00      0.00      0.00         3
+        39.0       0.00      0.00      0.00         5
+
+    accuracy                           0.02       195
+   macro avg       0.01      0.03      0.01       195
+weighted avg       0.00      0.02      0.01       195
+
+Logistic Regression Confusion matrix: 
+[[0 0 0 ... 0 0 0]
+ [1 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+1
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+3
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Frequency Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Decision Tree Model:
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.96      0.98      0.97       188
+
+    accuracy                           0.94       195
+   macro avg       0.48      0.49      0.49       195
+weighted avg       0.93      0.94      0.94       195
+
+Decision Tree Confusion matrix: 
+[[  0   7]
+ [  4 184]]
+
+Fault Categorization Performance Metrics for Decision Tree Model:
+
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         3
+         2.0       0.20      0.14      0.17         7
+         3.0       0.33      0.50      0.40         4
+         4.0       0.00      0.00      0.00         2
+         5.0       0.00      0.00      0.00         5
+         6.0       0.00      0.00      0.00         4
+         7.0       0.00      0.00      0.00         3
+         8.0       0.00      0.00      0.00         2
+         9.0       0.17      0.25      0.20         4
+        10.0       0.00      0.00      0.00         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.00      0.00      0.00         6
+        13.0       0.00      0.00      0.00         5
+        14.0       0.00      0.00      0.00         3
+        15.0       0.00      0.00      0.00         9
+        16.0       0.14      0.33      0.20         3
+        17.0       0.00      0.00      0.00         6
+        18.0       0.00      0.00      0.00         4
+        19.0       0.00      0.00      0.00         4
+        20.0       0.00      0.00      0.00         6
+        21.0       0.00      0.00      0.00         3
+        22.0       0.00      0.00      0.00         2
+        23.0       0.00      0.00      0.00         2
+        24.0       0.00      0.00      0.00         7
+        25.0       0.00      0.00      0.00         6
+        26.0       0.00      0.00      0.00         2
+        27.0       0.00      0.00      0.00         5
+        28.0       0.00      0.00      0.00         6
+        29.0       0.00      0.00      0.00         4
+        30.0       0.00      0.00      0.00         8
+        31.0       0.33      0.11      0.17         9
+        32.0       0.00      0.00      0.00         6
+        33.0       0.00      0.00      0.00         3
+        34.0       0.00      0.00      0.00         9
+        35.0       0.25      0.14      0.18         7
+        36.0       0.00      0.00      0.00         7
+        37.0       0.12      0.20      0.15         5
+        38.0       0.00      0.00      0.00         3
+        39.0       0.00      0.00      0.00         5
+
+    accuracy                           0.04       195
+   macro avg       0.04      0.04      0.04       195
+weighted avg       0.05      0.04      0.04       195
+
+Decision Tree Confusion matrix: 
+[[0 0 0 ... 0 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 2 ... 0 0 0]
+ ...
+ [0 0 1 ... 1 0 0]
+ [0 1 0 ... 0 0 0]
+ [0 0 0 ... 2 0 0]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+1
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+3 4
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Frequency Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for SVM Model:
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.96      1.00      0.98       188
+
+    accuracy                           0.96       195
+   macro avg       0.48      0.50      0.49       195
+weighted avg       0.93      0.96      0.95       195
+
+SVM Confusion matrix: 
+[[  0   7]
+ [  0 188]]
+
+Fault Categorization Performance Metrics for SVM Model:
+
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         3
+         2.0       0.00      0.00      0.00         7
+         3.0       0.00      0.00      0.00         4
+         4.0       0.00      0.00      0.00         2
+         5.0       0.00      0.00      0.00         5
+         6.0       0.00      0.00      0.00         4
+         7.0       0.00      0.00      0.00         3
+         8.0       0.00      0.00      0.00         2
+         9.0       0.08      0.50      0.14         4
+        10.0       0.00      0.00      0.00         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.00      0.00      0.00         6
+        13.0       0.00      0.00      0.00         5
+        14.0       0.00      0.00      0.00         3
+        15.0       0.00      0.00      0.00         9
+        16.0       0.00      0.00      0.00         3
+        17.0       0.00      0.00      0.00         6
+        18.0       0.00      0.00      0.00         4
+        19.0       0.00      0.00      0.00         4
+        20.0       0.00      0.00      0.00         6
+        21.0       0.00      0.00      0.00         3
+        22.0       0.00      0.00      0.00         2
+        23.0       0.03      1.00      0.06         2
+        24.0       0.00      0.00      0.00         7
+        25.0       0.00      0.00      0.00         6
+        26.0       0.00      0.00      0.00         2
+        27.0       0.00      0.00      0.00         5
+        28.0       0.00      0.00      0.00         6
+        29.0       0.00      0.00      0.00         4
+        30.0       0.00      0.00      0.00         8
+        31.0       0.00      0.00      0.00         9
+        32.0       0.00      0.00      0.00         6
+        33.0       0.00      0.00      0.00         3
+        34.0       0.00      0.00      0.00         9
+        35.0       0.00      0.00      0.00         7
+        36.0       0.00      0.00      0.00         7
+        37.0       0.00      0.00      0.00         5
+        38.0       0.00      0.00      0.00         3
+        39.0       0.00      0.00      0.00         5
+
+    accuracy                           0.02       195
+   macro avg       0.00      0.04      0.01       195
+weighted avg       0.00      0.02      0.00       195
+
+SVM Confusion matrix: 
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+1
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+5
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Frequency Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Neural Network Model:
+
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.96      1.00      0.98       188
+
+    accuracy                           0.96       195
+   macro avg       0.48      0.50      0.49       195
+weighted avg       0.93      0.96      0.95       195
+
+Confusion matrix: 
+[[  0   7]
+ [  0 188]]
+
+Fault Categorization Performance Metrics for Neural Network Model:
+
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         3
+         2.0       0.00      0.00      0.00         7
+         3.0       0.00      0.00      0.00         4
+         4.0       0.00      0.00      0.00         2
+         5.0       0.00      0.00      0.00         5
+         6.0       0.00      0.00      0.00         4
+         7.0       0.01      0.67      0.02         3
+         8.0       0.00      0.00      0.00         2
+         9.0       0.00      0.00      0.00         4
+        10.0       0.00      0.00      0.00         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.00      0.00      0.00         6
+        13.0       0.00      0.00      0.00         5
+        14.0       0.00      0.00      0.00         3
+        15.0       0.00      0.00      0.00         9
+        16.0       0.00      0.00      0.00         3
+        17.0       0.00      0.00      0.00         6
+        18.0       0.00      0.00      0.00         4
+        19.0       0.00      0.00      0.00         4
+        20.0       0.00      0.00      0.00         6
+        21.0       0.00      0.00      0.00         3
+        22.0       0.00      0.00      0.00         2
+        23.0       0.00      0.00      0.00         2
+        24.0       0.00      0.00      0.00         7
+        25.0       0.00      0.00      0.00         6
+        26.0       0.00      0.00      0.00         2
+        27.0       0.00      0.00      0.00         5
+        28.0       0.00      0.00      0.00         6
+        29.0       0.00      0.00      0.00         4
+        30.0       0.00      0.00      0.00         8
+        31.0       0.00      0.00      0.00         9
+        32.0       0.00      0.00      0.00         6
+        33.0       0.00      0.00      0.00         3
+        34.0       0.00      0.00      0.00         9
+        35.0       0.00      0.00      0.00         7
+        36.0       0.00      0.00      0.00         7
+        37.0       0.00      0.00      0.00         5
+        38.0       0.00      0.00      0.00         3
+        39.0       0.00      0.00      0.00         5
+
+    accuracy                           0.01       195
+   macro avg       0.00      0.02      0.00       195
+weighted avg       0.00      0.01      0.00       195
+
+Confusion matrix: 
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+2
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+1
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Time Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Linear Regression Model:
+
+Mean Squared Error: 3.6336734154690536e-25
+R2 Score: 1.0
+
+Fault Categorization Performance Metrics for Linear Regression Model:
+
+Mean Squared Error: 1.3102066225815173e-25
+R2 Score: 1.0
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+2
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+2
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Time Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Logistic Regression Model:
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.96      0.99      0.98       188
+
+    accuracy                           0.96       195
+   macro avg       0.48      0.50      0.49       195
+weighted avg       0.93      0.96      0.94       195
+
+Confusion Matrix (Detection): 
+[[  0   7]
+ [  1 187]]
+
+Fault Categorization Performance Metrics for Logistic Regression Model:
+
+              precision    recall  f1-score   support
+
+         1.0       1.00      1.00      1.00         3
+         2.0       0.00      0.00      0.00         7
+         3.0       0.00      0.00      0.00         4
+         4.0       0.11      0.50      0.18         2
+         5.0       0.50      0.40      0.44         5
+         6.0       0.00      0.00      0.00         4
+         7.0       1.00      1.00      1.00         3
+         8.0       0.50      0.50      0.50         2
+         9.0       0.00      0.00      0.00         4
+        10.0       0.00      0.00      0.00         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.36      0.83      0.50         6
+        13.0       0.60      0.60      0.60         5
+        14.0       0.25      0.67      0.36         3
+        15.0       0.00      0.00      0.00         9
+        16.0       0.50      1.00      0.67         3
+        17.0       0.50      1.00      0.67         6
+        18.0       0.00      0.00      0.00         4
+        19.0       0.80      1.00      0.89         4
+        20.0       0.00      0.00      0.00         6
+        21.0       0.00      0.00      0.00         3
+        22.0       0.00      0.00      0.00         2
+        23.0       0.00      0.00      0.00         2
+        24.0       0.00      0.00      0.00         7
+        25.0       0.12      0.17      0.14         6
+        26.0       0.25      0.50      0.33         2
+        27.0       0.25      0.20      0.22         5
+        28.0       0.80      0.67      0.73         6
+        29.0       0.14      0.25      0.18         4
+        30.0       1.00      0.12      0.22         8
+        31.0       0.00      0.00      0.00         9
+        32.0       0.00      0.00      0.00         6
+        33.0       0.14      1.00      0.25         3
+        34.0       0.00      0.00      0.00         9
+        35.0       0.00      0.00      0.00         7
+        36.0       0.78      1.00      0.88         7
+        37.0       0.00      0.00      0.00         5
+        38.0       0.05      1.00      0.09         3
+        39.0       0.00      0.00      0.00         5
+
+    accuracy                           0.28       195
+   macro avg       0.25      0.34      0.25       195
+weighted avg       0.23      0.28      0.22       195
+
+Confusion Matrix (Categorization): 
+[[3 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 5 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 5 0]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+2
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+3
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Time Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Decision Tree Model:
+
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00         7
+         1.0       1.00      1.00      1.00       188
+
+    accuracy                           1.00       195
+   macro avg       1.00      1.00      1.00       195
+weighted avg       1.00      1.00      1.00       195
+
+Decision Tree Confusion matrix: 
+[[  7   0]
+ [  0 188]]
+
+Fault Categorization Performance Metrics for Decision Tree Model:
+
+              precision    recall  f1-score   support
+
+         1.0       1.00      1.00      1.00         3
+         2.0       1.00      1.00      1.00         7
+         3.0       0.80      1.00      0.89         4
+         4.0       1.00      1.00      1.00         2
+         5.0       1.00      1.00      1.00         5
+         6.0       1.00      1.00      1.00         4
+         7.0       1.00      1.00      1.00         3
+         8.0       1.00      1.00      1.00         2
+         9.0       1.00      1.00      1.00         4
+        10.0       1.00      1.00      1.00         6
+        11.0       1.00      1.00      1.00        10
+        12.0       1.00      1.00      1.00         6
+        13.0       1.00      1.00      1.00         5
+        14.0       0.75      1.00      0.86         3
+        15.0       1.00      1.00      1.00         9
+        16.0       1.00      1.00      1.00         3
+        17.0       1.00      1.00      1.00         6
+        18.0       1.00      1.00      1.00         4
+        19.0       1.00      1.00      1.00         4
+        20.0       1.00      1.00      1.00         6
+        21.0       1.00      1.00      1.00         3
+        22.0       1.00      1.00      1.00         2
+        23.0       1.00      1.00      1.00         2
+        24.0       1.00      1.00      1.00         7
+        25.0       1.00      1.00      1.00         6
+        26.0       1.00      1.00      1.00         2
+        27.0       1.00      1.00      1.00         5
+        28.0       1.00      0.83      0.91         6
+        29.0       0.80      1.00      0.89         4
+        30.0       1.00      0.88      0.93         8
+        31.0       1.00      0.89      0.94         9
+        32.0       1.00      1.00      1.00         6
+        33.0       1.00      1.00      1.00         3
+        34.0       1.00      1.00      1.00         9
+        35.0       1.00      1.00      1.00         7
+        36.0       1.00      1.00      1.00         7
+        37.0       1.00      1.00      1.00         5
+        38.0       1.00      1.00      1.00         3
+        39.0       1.00      1.00      1.00         5
+
+    accuracy                           0.98       195
+   macro avg       0.98      0.99      0.99       195
+weighted avg       0.99      0.98      0.98       195
+
+Decision Tree Confusion matrix: 
+[[3 0 0 ... 0 0 0]
+ [0 7 0 ... 0 0 0]
+ [0 0 4 ... 0 0 0]
+ ...
+ [0 0 0 ... 5 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 5]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+2
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+4
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Time Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for SVM Model:
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         7
+         1.0       0.96      1.00      0.98       188
+
+    accuracy                           0.96       195
+   macro avg       0.48      0.50      0.49       195
+weighted avg       0.93      0.96      0.95       195
+
+SVM Confusion matrix: 
+[[  0   7]
+ [  0 188]]
+
+Fault Categorization Performance Metrics for SVM Model:
+
+              precision    recall  f1-score   support
+
+         1.0       0.00      0.00      0.00         3
+         2.0       0.00      0.00      0.00         7
+         3.0       0.00      0.00      0.00         4
+         4.0       0.00      0.00      0.00         2
+         5.0       0.00      0.00      0.00         5
+         6.0       0.00      0.00      0.00         4
+         7.0       1.00      0.67      0.80         3
+         8.0       0.09      0.50      0.15         2
+         9.0       0.00      0.00      0.00         4
+        10.0       0.00      0.00      0.00         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.00      0.00      0.00         6
+        13.0       0.50      0.60      0.55         5
+        14.0       0.00      0.00      0.00         3
+        15.0       0.00      0.00      0.00         9
+        16.0       0.00      0.00      0.00         3
+        17.0       0.00      0.00      0.00         6
+        18.0       0.00      0.00      0.00         4
+        19.0       0.00      0.00      0.00         4
+        20.0       0.00      0.00      0.00         6
+        21.0       0.00      0.00      0.00         3
+        22.0       0.00      0.00      0.00         2
+        23.0       0.02      1.00      0.03         2
+        24.0       0.00      0.00      0.00         7
+        25.0       0.50      0.17      0.25         6
+        26.0       0.25      0.50      0.33         2
+        27.0       0.43      0.60      0.50         5
+        28.0       0.00      0.00      0.00         6
+        29.0       0.33      0.25      0.29         4
+        30.0       0.00      0.00      0.00         8
+        31.0       0.00      0.00      0.00         9
+        32.0       0.00      0.00      0.00         6
+        33.0       0.00      0.00      0.00         3
+        34.0       0.00      0.00      0.00         9
+        35.0       0.00      0.00      0.00         7
+        36.0       0.50      0.14      0.22         7
+        37.0       0.00      0.00      0.00         5
+        38.0       0.00      0.00      0.00         3
+        39.0       0.00      0.00      0.00         5
+
+    accuracy                           0.08       195
+   macro avg       0.09      0.11      0.08       195
+weighted avg       0.08      0.08      0.07       195
+
+SVM Confusion matrix: 
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+1
+
+What dataset would you like to look at? 
+
+Type "1" for 25 RPM dataset
+Type "2" for 50 RPM dataset
+Type "3" for 75 RPM dataset
+
+2
+
+What feature extraction type would you like to look at? 
+Type "1" for Frequency Domain Features
+Type "2" for Time Domain Features
+
+2
+
+What model would you like to look at? 
+Type "1" for Linear Regression Model
+Type "2" for Logistic Regression Model
+Type "3" for Decison Tree Model
+Type "4" for SVM Model
+Type "5" for Neural Network Model
+
+5
+
+
+####################################################################################################
+
+Peformance Metrics for 50 RPM Dataset with Time Domain Features
+
+####################################################################################################
+
+
+
+Fault Detection Performance Metrics for Neural Network Model:
+
+              precision    recall  f1-score   support
+
+         0.0       1.00      1.00      1.00         7
+         1.0       1.00      1.00      1.00       188
+
+    accuracy                           1.00       195
+   macro avg       1.00      1.00      1.00       195
+weighted avg       1.00      1.00      1.00       195
+
+Confusion matrix: 
+[[  7   0]
+ [  0 188]]
+
+Fault Categorization Performance Metrics for Neural Network Model:
+
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/Users/makaylanovitske/Desktop/Classes_2025/Capstone II/ML_code/env/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+         1.0       1.00      1.00      1.00         3
+         2.0       1.00      1.00      1.00         7
+         3.0       1.00      1.00      1.00         4
+         4.0       0.15      1.00      0.27         2
+         5.0       0.67      0.80      0.73         5
+         6.0       1.00      0.75      0.86         4
+         7.0       1.00      1.00      1.00         3
+         8.0       1.00      0.50      0.67         2
+         9.0       0.33      0.50      0.40         4
+        10.0       0.38      0.50      0.43         6
+        11.0       0.00      0.00      0.00        10
+        12.0       0.00      0.00      0.00         6
+        13.0       0.36      0.80      0.50         5
+        14.0       1.00      1.00      1.00         3
+        15.0       1.00      1.00      1.00         9
+        16.0       1.00      1.00      1.00         3
+        17.0       0.86      1.00      0.92         6
+        18.0       1.00      0.75      0.86         4
+        19.0       1.00      0.25      0.40         4
+        20.0       0.75      0.50      0.60         6
+        21.0       1.00      1.00      1.00         3
+        22.0       0.50      1.00      0.67         2
+        23.0       1.00      1.00      1.00         2
+        24.0       1.00      1.00      1.00         7
+        25.0       0.00      0.00      0.00         6
+        26.0       0.50      0.50      0.50         2
+        27.0       0.33      0.40      0.36         5
+        28.0       0.83      0.83      0.83         6
+        29.0       0.40      0.50      0.44         4
+        30.0       1.00      0.75      0.86         8
+        31.0       0.90      1.00      0.95         9
+        32.0       1.00      1.00      1.00         6
+        33.0       1.00      1.00      1.00         3
+        34.0       1.00      0.67      0.80         9
+        35.0       1.00      0.86      0.92         7
+        36.0       0.88      1.00      0.93         7
+        37.0       1.00      1.00      1.00         5
+        38.0       0.75      1.00      0.86         3
+        39.0       0.62      1.00      0.77         5
+
+    accuracy                           0.74       195
+   macro avg       0.75      0.77      0.73       195
+weighted avg       0.74      0.74      0.72       195
+
+Confusion matrix: 
+[[3 0 0 ... 0 0 0]
+ [0 7 0 ... 0 0 0]
+ [0 0 4 ... 0 0 0]
+ ...
+ [0 0 0 ... 5 0 0]
+ [0 0 0 ... 0 3 0]
+ [0 0 0 ... 0 0 5]]
+If you would like to look at a different model please type 1 otherwise type 0:
+
+0
+[1m[7m%[27m[1m[0m                                                                                                             
+ 
+
+[0m[27m[24m[J(base) makaylanovitske@MacBook-Air ML_code % [K[?2004heexit[?2004l
+
+
+Script done on Thu Apr 10 12:11:50 2025
