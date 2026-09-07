@@ -115,4 +115,4 @@ GitHub Actions runs the test suite on Linux with Python 3.11 and 3.12. See [scik
 
 **[Explore my professional portfolio](https://victorcabaleirovalado.github.io/)**
 
-Maintained by [Victor Cabaleiro Valado](https://github.com/VictorCabaleiroValado) · [LinkedIn](https://www.linkedin.com/in/victor-cabaleiro-valado/)
+Maintained by [Victor Cabaleiro Valado](https://github.com/VictorCabaleiroValado) · [LinkedIn](https://www.linkedin.com/in/victorcabaleirovalado/)
