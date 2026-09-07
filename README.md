@@ -1,5 +1,7 @@
 # Machine Learning for Rotary Machine Fault Diagnosis
 
+**[Try the interactive vibration demo](https://victorcabaleirovalado.github.io/demo/)** — explore a real signal and run the classifier in your browser.
+
 **Vibration analysis · Feature engineering · Reproducible evaluation**
 
 An academic Python workflow for fault detection and classification from rotary-machine vibration measurements. Time-domain statistics and FFT features feed a shared, validated evaluation pipeline.
