@@ -1,25 +1,24 @@
 # Machine Learning for Rotary Machine Fault Diagnosis
 
-**Vibration analysis · Feature engineering · Supervised learning**
+**Vibration analysis · Feature engineering · Reproducible evaluation**
 
-An academic Python project for exploring **fault detection** and **fault classification** in rotary machines using vibration measurements at 25, 50 and 75 RPM. It combines time-domain statistics and frequency-domain (FFT) features with an interactive model comparison workflow.
+An academic Python workflow for fault detection and classification from rotary-machine vibration measurements. Time-domain statistics and FFT features feed a shared, validated evaluation pipeline.
 
-[Project report](CAPSTONE%20PROJECT.pdf) · [Interactive classifier](ML_Classifer_Code_with_Menu.py) · [Dependencies](requirements.txt)
+[Project report](CAPSTONE%20PROJECT.pdf) · [Data provenance](docs/DATA_PROVENANCE.md) · [Validation results](results/validated/README.md)
 
-## Workflow
+## Data status
 
-```text
-Vibration CSVs → Sensor features → Train/test split → Model fitting → Evaluation
-                   Time / FFT                        Detection / Category
-```
+| Speed | Time features | Frequency features | Recommended use |
+| :--- | :--- | :--- | :--- |
+| 25 RPM | Rebuilt from 975 original measurements | Rebuilt from the same measurements | Default exploration, with filename-based labels |
+| 50 RPM | Historical table | Historical table | Explicit opt-in; original measurements unavailable |
+| 75 RPM | Restored from the owner's local CSV | Historical table | Explicit opt-in; original measurements unavailable |
 
-The menu offers decision trees, logistic regression, support vector machines and a multilayer perceptron. A linear regression option is also included as an exploratory baseline; its MSE and R² outputs should not be interpreted as classification accuracy.
+The four historical 50/75 RPM tables require `--allow-unverified-data`. Their numeric structure is valid, but their labels and feature semantics cannot be verified without raw measurements. They are not suitable for validated performance claims. The historical root-level `*_RPM_Results.txt` files predate these fixes and are superseded for current evaluation.
 
-Classification outputs include precision, recall, F1-score and confusion matrices. Existing result logs are included for reference; they are historical outputs, not independently validated benchmarks.
+## Quick start
 
-## Get started
-
-Run commands from the repository root. The classifier reads the feature CSVs included in this repository.
+Use Python **3.9–3.12**. The exact tested dependency set is provided in `requirements-lock.txt`.
 
 ```bash
 git clone https://github.com/VictorValado/ML-Classifier-for-Fault-Diagnosis-in-Rotary-Machines.git
@@ -27,71 +26,91 @@ cd ML-Classifier-for-Fault-Diagnosis-in-Rotary-Machines
 python -m venv .venv
 ```
 
-Activate the environment:
+Activate the environment with `source .venv/bin/activate` on macOS/Linux, or `.venv\Scripts\Activate.ps1` in Windows PowerShell.
 
 ```bash
-# macOS / Linux
-source .venv/bin/activate
-
-# Windows PowerShell
-.venv\Scripts\Activate.ps1
+python -m pip install -r requirements-lock.txt
+python fault_diagnosis.py evaluate --rpm 25 --domain frequency --model tree
 ```
 
-Install dependencies and launch the interactive classifier:
+For the interactive menu:
 
 ```bash
-python -m pip install -r requirements.txt
 python ML_Classifer_Code_with_Menu.py
 ```
 
-The filename above preserves the repository's original spelling, `Classifer`.
+Select **1 → 1 → 3** for 25 RPM, frequency features and a decision tree. Invalid inputs are handled without a traceback. The original filename spelling is retained for compatibility.
 
-For an initial exploration, select **1 → 1 → 3**: 25 RPM, frequency-domain features, decision tree. The program evaluates detection and categorization, then offers another model run. This is an example workflow, not a claim of validated model performance.
+### Save an evaluation
+
+```bash
+python fault_diagnosis.py evaluate --rpm 25 --domain time --model logistic \
+  --seed 42 --output results/local/time_25_logistic.json
+```
+
+Output files are created exclusively: an existing file will not be silently replaced. Relative data paths can be supplied with `--data-dir`; default bundled data resolves relative to the code, so the command also works from another directory.
+
+## Evaluation design
+
+- Predictors use an explicit whitelist of **72 time** or **63 frequency** features. Targets, saved CSV indexes and source metadata never enter the model.
+- An **80/20 split stratified by fault category** uses the same rows for both tasks. Every class must appear in both partitions.
+- Logistic regression, SVM, MLP and the legacy linear baseline use a `StandardScaler` fitted **only on training rows** through a scikit-learn pipeline.
+- A separate estimator is fitted for each target. Randomized estimators and splits have a configurable fixed seed.
+- Classifiers report per-class precision, recall, F1, macro/weighted averages and confusion matrices. The linear baseline reports MSE and R²; numeric category codes do not have a meaningful continuous ordering.
+- JSON reports include the data SHA-256, feature count, split indices, software versions, provenance and any estimator warnings.
+- If a custom table includes authentic acquisition-run IDs, use `--group-column group_id` to keep each run in one partition. The supplied tables do not establish acquisition-run independence; row-level holdout results remain exploratory.
+
+Available models: `tree`, `logistic`, `svm`, `mlp`, `linear`.
+
+## Regenerate features from original measurements
+
+Raw measurements are not included. Each dataset requires a manifest with **explicit labels**:
+
+```csv
+filename,fault_detected,fault_category
+healthy_trial.csv,0,1
+bearing_trial.csv,1,2
+```
+
+An optional `group_id` column preserves real acquisition-run IDs. Never derive them from arbitrary row blocks. Paths are relative to `--raw-dir`. `fault_detected` is 0 for healthy and 1 for a fault; `fault_category` is a positive integer, with a consistent detection flag per category.
+
+The 25 RPM manifest and category names are included under [data/manifests](data/manifests). The category IDs in the rebuilt 25 RPM data must not be interpreted using the legacy 50/75 RPM numbering.
+
+For a standard CSV, use the named columns `Tachometer, Motor, B1_Z, B1_Y, B1_X, B2_Z, B2_Y, B2_X, Gearbox`:
+
+```bash
+python fault_diagnosis.py extract --rpm 25 --domain time \
+  --raw-dir /path/to/measurements --manifest data/manifests/25_rpm.csv \
+  --output results/local/time_domain_feature_extraction_25.csv
+```
+
+The original 25 RPM files have 18 alternating timestamp/sensor columns and three metadata rows after the header. For those files, add **`--legacy-skip-rows 3`**. This setting was checked against their actual layout. Do not assume it applies to other instruments.
+
+Use `--domain frequency` for FFT features. Default output names match the classifier: `FF_feature_extraction_<RPM>.csv` and `time_domain_feature_extraction_<RPM>.csv`.
+
+`--start` and `--end` select manifest rows (1-based, inclusive) without changing labels. Missing files, nonnumeric samples, nonfinite values, invalid labels and empty selections fail before output is written. Use `--overwrite` explicitly to regenerate an existing output.
+
+Constant signals have zero variance/skewness/kurtosis by documented convention; all other kurtosis values use SciPy's Fisher definition. Frequency features use the magnitude of the unnormalized full FFT, preserving the project's convention.
 
 ## Repository guide
 
-| File | Purpose |
+| Path | Purpose |
 | :--- | :--- |
-| `ML_Classifer_Code_with_Menu.py` | Interactive dataset, feature-domain and model selection |
-| `ML_Classifier_Code.py` | Alternative analysis script |
-| `Time_Domain_FE_with_Menu.py` | Interactive time-domain feature extraction |
-| `Frequency_Domain_FE_with_Menu.py` | Interactive FFT feature extraction |
-| `Time_Domain_FE.py`, `Frequency_Domain_FE.py` | Alternative extraction scripts |
-| `FF_feature_extraction_*.csv` | Frequency-domain feature tables read by the classifier |
-| `time_domain_feature_extraction_*.csv` | Time-domain feature files; see the 75 RPM limitation below |
-| `25_RPM_Results.txt`, `50_RPM_Results.txt`, `75_RPM_Results.txt` | Historical result logs |
-| [CAPSTONE PROJECT.pdf](CAPSTONE%20PROJECT.pdf) | Included project report |
-| `requirements.txt` | NumPy, Pandas, SciPy and scikit-learn dependencies |
+| `fault_diagnosis.py` | Shared classifier, validation, extraction and CLI |
+| `ML_Classifier_Code.py`, `ML_Classifer_Code_with_Menu.py` | Compatibility classifier entry points |
+| `Time_Domain_FE*.py`, `Frequency_Domain_FE*.py` | Compatibility extraction entry points; use `--help` |
+| `tests/` | Regression, data validation, CLI and extraction tests |
+| `data/` | Source manifests, category map and provenance hashes |
+| `results/validated/` | Current reproducible execution reports |
+| `requirements-lock.txt` | Exact tested dependency versions, including test tools |
+| [CAPSTONE PROJECT.pdf](CAPSTONE%20PROJECT.pdf) | Original academic report; not revised by this maintenance work |
 
-## Regenerating features
-
-Raw measurement folders are **not included**. The menu-based extraction scripts expect these locations:
-
-| Dataset | Time-domain input | Frequency-domain input |
-| :--- | :--- | :--- |
-| 25 RPM | `Fault data split 25/*.csv` | `DATA/Fault data split 25/*.csv` |
-| 50 RPM | `Fault data split 50/*.csv` | `Fault data split 50/*.csv` |
-| 75 RPM | `Fault data split 75/*.csv` | `Fault data split 75/*.csv` |
+## Tests
 
 ```bash
-python Time_Domain_FE_with_Menu.py
-python Frequency_Domain_FE_with_Menu.py
+python -m pytest -q
 ```
 
-The scripts ask for the dataset and CSV index range. Time-domain extraction writes `time_domain_feature_extraction_<RPM>.csv`. Frequency-domain extraction writes `frequency_domain_feature_extraction_<RPM>.csv`, while the classifier expects `FF_feature_extraction_<RPM>.csv`; align these names before using newly generated frequency features.
-
-Feature extraction assumes a specific source-column layout and assigns labels from file order. Verify the original measurement order and label mapping before regeneration, especially when selecting a subset. Running extraction can overwrite an existing output CSV.
-
-## Current limitations and evaluation notes
-
-- **Time-domain target leakage:** the interactive classifier's `features_TD` list includes `fault_detected` and `fault_category`, which are also prediction targets. Remove both from the predictors and rerun evaluation before relying on time-domain results.
-- **Invalid 75 RPM time-domain file:** the committed `time_domain_feature_extraction_75.csv` contains a GitHub rate-limit error message rather than a feature table. This path requires regeneration from the original data.
-- **Validation design:** the interactive script uses an 80/20 shuffled split with `random_state=0`. When multiple observations originate from the same measurement run, evaluate with a split grouped by run to check generalization.
-- **Reproducibility:** package versions are not pinned and some estimators have no fixed random seed. Results may vary between runs and environments.
-- **Scope:** this repository is an academic exploration. The published workflow operates on CSV files; it is not a deployed real-time monitoring service.
-
-## Background
-
-The repository connects signal processing, statistical feature extraction and machine learning for engineering diagnostics. The included [project report](CAPSTONE%20PROJECT.pdf) provides further context.
+GitHub Actions runs the test suite on Linux with Python 3.11 and 3.12. See [scikit-learn's guidance on data leakage](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage) for the rationale behind training-only preprocessing.
 
 Maintained by [Victor Cabaleiro Valado](https://github.com/VictorValado) · [LinkedIn](https://www.linkedin.com/in/victor-cabaleiro-valado/)

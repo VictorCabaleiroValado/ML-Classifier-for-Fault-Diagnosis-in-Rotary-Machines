@@ -1,0 +1,976 @@
+filename,fault_detected,fault_category
+Bearing (1) Ball & Bearing (2) Combination Trial 1.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 10.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 11.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 12.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 13.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 14.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 15.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 16.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 17.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 18.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 19.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 2.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 20.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 21.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 22.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 23.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 24.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 25.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 3.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 4.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 5.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 6.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 7.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 8.csv,1,1
+Bearing (1) Ball & Bearing (2) Combination Trial 9.csv,1,1
+Bearing (1) Ball & Bearing (2) Inner Trial 1.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 10.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 11.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 12.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 13.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 14.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 15.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 16.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 17.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 18.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 19.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 2.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 20.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 21.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 22.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 23.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 24.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 25.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 3.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 4.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 5.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 6.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 7.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 8.csv,1,2
+Bearing (1) Ball & Bearing (2) Inner Trial 9.csv,1,2
+Bearing (1) Ball & Bearing (2) Outer Trial 1.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 10.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 11.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 12.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 13.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 14.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 15.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 16.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 17.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 18.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 19.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 2.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 20.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 21.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 22.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 23.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 24.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 25.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 3.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 4.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 5.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 6.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 7.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 8.csv,1,3
+Bearing (1) Ball & Bearing (2) Outer Trial 9.csv,1,3
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 1.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 10.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 11.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 12.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 13.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 14.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 15.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 16.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 17.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 18.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 19.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 2.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 20.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 21.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 22.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 23.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 24.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 25.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 3.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 4.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 5.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 6.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 7.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 8.csv,1,4
+Bearing (1) Ball & Shaft Fault (Centerally bent) Trial 9.csv,1,4
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 1.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 10.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 11.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 12.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 13.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 14.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 15.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 16.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 17.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 18.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 19.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 2.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 20.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 21.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 22.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 23.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 24.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 25.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 3.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 4.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 5.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 6.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 7.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 8.csv,1,5
+Bearing (1) Ball & Shaft Fault (Coupling End bent) Trial 9.csv,1,5
+Bearing (1) Combination & Bearing (2) Ball Trial 1.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 10.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 11.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 12.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 13.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 14.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 15.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 16.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 17.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 18.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 19.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 2.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 20.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 21.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 22.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 23.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 24.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 25.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 3.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 4.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 5.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 6.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 7.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 8.csv,1,6
+Bearing (1) Combination & Bearing (2) Ball Trial 9.csv,1,6
+Bearing (1) Combination & Bearing (2) Inner Trial 1.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 10.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 11.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 12.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 13.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 14.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 15.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 16.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 17.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 18.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 19.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 2.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 20.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 21.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 22.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 23.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 24.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 25.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 3.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 4.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 5.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 6.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 7.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 8.csv,1,7
+Bearing (1) Combination & Bearing (2) Inner Trial 9.csv,1,7
+Bearing (1) Combination & Bearing (2) Outer Trial 1.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 10.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 11.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 12.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 13.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 14.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 15.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 16.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 17.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 18.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 19.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 2.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 20.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 21.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 22.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 23.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 24.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 25.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 3.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 4.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 5.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 6.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 7.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 8.csv,1,8
+Bearing (1) Combination & Bearing (2) Outer Trial 9.csv,1,8
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 1.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 10.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 11.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 12.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 13.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 14.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 15.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 16.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 17.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 18.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 19.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 2.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 20.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 21.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 22.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 23.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 24.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 25.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 3.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 4.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 5.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 6.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 7.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 8.csv,1,9
+Bearing (1) Combination & Shaft Fault (Centerally bent) Trial 9.csv,1,9
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 1.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 10.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 11.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 12.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 13.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 14.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 15.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 16.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 17.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 18.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 19.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 2.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 20.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 21.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 22.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 23.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 24.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 25.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 3.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 4.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 5.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 6.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 7.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 8.csv,1,10
+Bearing (1) Combination & Shaft Fault (Coupling End bent) Trial 9.csv,1,10
+Bearing (1) Fault (ball) Trial 1.csv,1,11
+Bearing (1) Fault (ball) Trial 10.csv,1,11
+Bearing (1) Fault (ball) Trial 11.csv,1,11
+Bearing (1) Fault (ball) Trial 12.csv,1,11
+Bearing (1) Fault (ball) Trial 13.csv,1,11
+Bearing (1) Fault (ball) Trial 14.csv,1,11
+Bearing (1) Fault (ball) Trial 15.csv,1,11
+Bearing (1) Fault (ball) Trial 16.csv,1,11
+Bearing (1) Fault (ball) Trial 17.csv,1,11
+Bearing (1) Fault (ball) Trial 18.csv,1,11
+Bearing (1) Fault (ball) Trial 19.csv,1,11
+Bearing (1) Fault (ball) Trial 2.csv,1,11
+Bearing (1) Fault (ball) Trial 20.csv,1,11
+Bearing (1) Fault (ball) Trial 21.csv,1,11
+Bearing (1) Fault (ball) Trial 22.csv,1,11
+Bearing (1) Fault (ball) Trial 23.csv,1,11
+Bearing (1) Fault (ball) Trial 24.csv,1,11
+Bearing (1) Fault (ball) Trial 25.csv,1,11
+Bearing (1) Fault (ball) Trial 3.csv,1,11
+Bearing (1) Fault (ball) Trial 4.csv,1,11
+Bearing (1) Fault (ball) Trial 5.csv,1,11
+Bearing (1) Fault (ball) Trial 6.csv,1,11
+Bearing (1) Fault (ball) Trial 7.csv,1,11
+Bearing (1) Fault (ball) Trial 8.csv,1,11
+Bearing (1) Fault (ball) Trial 9.csv,1,11
+Bearing (1) Fault (combination) Trial 1.csv,1,12
+Bearing (1) Fault (combination) Trial 10.csv,1,12
+Bearing (1) Fault (combination) Trial 11.csv,1,12
+Bearing (1) Fault (combination) Trial 12.csv,1,12
+Bearing (1) Fault (combination) Trial 13.csv,1,12
+Bearing (1) Fault (combination) Trial 14.csv,1,12
+Bearing (1) Fault (combination) Trial 15.csv,1,12
+Bearing (1) Fault (combination) Trial 16.csv,1,12
+Bearing (1) Fault (combination) Trial 17.csv,1,12
+Bearing (1) Fault (combination) Trial 18.csv,1,12
+Bearing (1) Fault (combination) Trial 19.csv,1,12
+Bearing (1) Fault (combination) Trial 2.csv,1,12
+Bearing (1) Fault (combination) Trial 20.csv,1,12
+Bearing (1) Fault (combination) Trial 21.csv,1,12
+Bearing (1) Fault (combination) Trial 22.csv,1,12
+Bearing (1) Fault (combination) Trial 23.csv,1,12
+Bearing (1) Fault (combination) Trial 24.csv,1,12
+Bearing (1) Fault (combination) Trial 25.csv,1,12
+Bearing (1) Fault (combination) Trial 3.csv,1,12
+Bearing (1) Fault (combination) Trial 4.csv,1,12
+Bearing (1) Fault (combination) Trial 5.csv,1,12
+Bearing (1) Fault (combination) Trial 6.csv,1,12
+Bearing (1) Fault (combination) Trial 7.csv,1,12
+Bearing (1) Fault (combination) Trial 8.csv,1,12
+Bearing (1) Fault (combination) Trial 9.csv,1,12
+Bearing (1) Fault (inner race) Trial 1.csv,1,13
+Bearing (1) Fault (inner race) Trial 10.csv,1,13
+Bearing (1) Fault (inner race) Trial 11.csv,1,13
+Bearing (1) Fault (inner race) Trial 12.csv,1,13
+Bearing (1) Fault (inner race) Trial 13.csv,1,13
+Bearing (1) Fault (inner race) Trial 14.csv,1,13
+Bearing (1) Fault (inner race) Trial 15.csv,1,13
+Bearing (1) Fault (inner race) Trial 16.csv,1,13
+Bearing (1) Fault (inner race) Trial 17.csv,1,13
+Bearing (1) Fault (inner race) Trial 18.csv,1,13
+Bearing (1) Fault (inner race) Trial 19.csv,1,13
+Bearing (1) Fault (inner race) Trial 2.csv,1,13
+Bearing (1) Fault (inner race) Trial 20.csv,1,13
+Bearing (1) Fault (inner race) Trial 21.csv,1,13
+Bearing (1) Fault (inner race) Trial 22.csv,1,13
+Bearing (1) Fault (inner race) Trial 23.csv,1,13
+Bearing (1) Fault (inner race) Trial 24.csv,1,13
+Bearing (1) Fault (inner race) Trial 25.csv,1,13
+Bearing (1) Fault (inner race) Trial 3.csv,1,13
+Bearing (1) Fault (inner race) Trial 4.csv,1,13
+Bearing (1) Fault (inner race) Trial 5.csv,1,13
+Bearing (1) Fault (inner race) Trial 6.csv,1,13
+Bearing (1) Fault (inner race) Trial 7.csv,1,13
+Bearing (1) Fault (inner race) Trial 8.csv,1,13
+Bearing (1) Fault (inner race) Trial 9.csv,1,13
+Bearing (1) Fault (outer race) Trial 1.csv,1,14
+Bearing (1) Fault (outer race) Trial 10.csv,1,14
+Bearing (1) Fault (outer race) Trial 11.csv,1,14
+Bearing (1) Fault (outer race) Trial 12.csv,1,14
+Bearing (1) Fault (outer race) Trial 13.csv,1,14
+Bearing (1) Fault (outer race) Trial 14.csv,1,14
+Bearing (1) Fault (outer race) Trial 15.csv,1,14
+Bearing (1) Fault (outer race) Trial 16.csv,1,14
+Bearing (1) Fault (outer race) Trial 17.csv,1,14
+Bearing (1) Fault (outer race) Trial 18.csv,1,14
+Bearing (1) Fault (outer race) Trial 19.csv,1,14
+Bearing (1) Fault (outer race) Trial 2.csv,1,14
+Bearing (1) Fault (outer race) Trial 20.csv,1,14
+Bearing (1) Fault (outer race) Trial 21.csv,1,14
+Bearing (1) Fault (outer race) Trial 22.csv,1,14
+Bearing (1) Fault (outer race) Trial 23.csv,1,14
+Bearing (1) Fault (outer race) Trial 24.csv,1,14
+Bearing (1) Fault (outer race) Trial 25.csv,1,14
+Bearing (1) Fault (outer race) Trial 3.csv,1,14
+Bearing (1) Fault (outer race) Trial 4.csv,1,14
+Bearing (1) Fault (outer race) Trial 5.csv,1,14
+Bearing (1) Fault (outer race) Trial 6.csv,1,14
+Bearing (1) Fault (outer race) Trial 7.csv,1,14
+Bearing (1) Fault (outer race) Trial 8.csv,1,14
+Bearing (1) Fault (outer race) Trial 9.csv,1,14
+Bearing (1) Inner & Bearing (2) Ball Trial 1.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 10.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 11.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 12.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 13.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 14.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 15.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 16.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 17.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 18.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 19.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 2.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 20.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 21.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 22.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 23.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 24.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 25.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 3.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 4.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 5.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 6.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 7.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 8.csv,1,15
+Bearing (1) Inner & Bearing (2) Ball Trial 9.csv,1,15
+Bearing (1) Inner & Bearing (2) Combintion Trial 1.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 10.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 11.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 12.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 13.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 14.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 15.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 16.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 17.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 18.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 19.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 2.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 20.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 21.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 22.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 23.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 24.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 25.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 3.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 4.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 5.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 6.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 7.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 8.csv,1,16
+Bearing (1) Inner & Bearing (2) Combintion Trial 9.csv,1,16
+Bearing (1) Inner & Bearing (2) Outer Trial 1.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 10.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 11.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 12.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 13.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 14.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 15.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 16.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 17.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 18.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 19.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 2.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 20.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 21.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 22.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 23.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 24.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 25.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 3.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 4.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 5.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 6.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 7.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 8.csv,1,17
+Bearing (1) Inner & Bearing (2) Outer Trial 9.csv,1,17
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 1.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 10.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 11.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 12.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 13.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 14.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 15.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 16.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 17.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 18.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 19.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 2.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 20.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 21.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 22.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 23.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 24.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 25.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 3.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 4.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 5.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 6.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 7.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 8.csv,1,18
+Bearing (1) Inner & Shaft Fault ( Coupling End Bent) Trial 9.csv,1,18
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 1.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 10.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 11.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 12.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 13.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 14.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 15.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 16.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 17.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 18.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 19.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 2.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 20.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 21.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 22.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 23.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 24.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 25.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 3.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 4.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 5.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 6.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 7.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 8.csv,1,19
+Bearing (1) Inner & Shaft Fault (Centerally bent) Trial 9.csv,1,19
+Bearing (1) Outer & Bearing (2) Ball Trial 1.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 10.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 11.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 12.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 13.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 14.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 15.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 16.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 17.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 18.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 19.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 2.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 20.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 21.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 22.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 23.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 24.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 25.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 3.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 4.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 5.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 6.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 7.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 8.csv,1,20
+Bearing (1) Outer & Bearing (2) Ball Trial 9.csv,1,20
+Bearing (1) Outer & Bearing (2) Combination Trial 1.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 10.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 11.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 12.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 13.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 14.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 15.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 16.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 17.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 18.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 19.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 2.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 20.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 21.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 22.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 23.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 24.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 25.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 3.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 4.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 5.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 6.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 7.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 8.csv,1,21
+Bearing (1) Outer & Bearing (2) Combination Trial 9.csv,1,21
+Bearing (1) Outer & Bearing (2) Inner Trial 1.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 10.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 11.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 12.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 13.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 14.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 15.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 16.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 17.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 18.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 19.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 2.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 20.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 21.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 22.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 23.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 24.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 25.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 3.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 4.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 5.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 6.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 7.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 8.csv,1,22
+Bearing (1) Outer & Bearing (2) Inner Trial 9.csv,1,22
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 1.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 10.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 11.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 12.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 13.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 14.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 15.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 16.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 17.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 18.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 19.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 2.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 20.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 21.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 22.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 23.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 24.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 25.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 3.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 4.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 5.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 6.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 7.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 8.csv,1,23
+Bearing (1) Outer & Shaft Fault (Centerally bent) Trial 9.csv,1,23
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 1.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 10.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 11.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 12.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 13.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 14.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 15.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 16.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 17.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 18.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 19.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 2.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 20.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 21.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 22.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 23.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 24.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 25.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 3.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 4.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 5.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 6.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 7.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 8.csv,1,24
+Bearing (1) Outer & Shaft Fault (Coupling End bent) Trial 9.csv,1,24
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 1.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 10.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 11.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 12.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 13.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 14.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 15.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 16.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 17.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 18.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 19.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 2.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 20.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 21.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 22.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 23.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 24.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 25.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 3.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 4.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 5.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 6.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 7.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 8.csv,1,25
+Bearing (2) Ball & Shaft Fault (Centerally bent) Trial 9.csv,1,25
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 1.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 10.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 11.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 12.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 13.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 14.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 15.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 16.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 17.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 18.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 19.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 2.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 20.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 21.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 22.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 23.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 24.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 25.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 3.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 4.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 5.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 6.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 7.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 8.csv,1,26
+Bearing (2) Ball & Shaft Fault (Coupling End bent) Trial 9.csv,1,26
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 1.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 10.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 11.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 12.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 13.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 14.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 15.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 16.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 17.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 18.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 19.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 2.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 20.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 21.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 22.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 23.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 24.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 25.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 3.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 4.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 5.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 6.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 7.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 8.csv,1,27
+Bearing (2) Combination & Shaft Fault (Centerally bent) Trial 9.csv,1,27
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 1.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 10.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 11.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 12.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 13.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 14.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 15.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 16.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 17.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 18.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 19.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 2.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 20.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 21.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 22.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 23.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 24.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 25.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 3.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 4.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 5.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 6.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 7.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 8.csv,1,28
+Bearing (2) Combination & Shaft Fault (Coupling End bent) Trial 9.csv,1,28
+Bearing (2) Fault (ball) Trial 1.csv,1,29
+Bearing (2) Fault (ball) Trial 10.csv,1,29
+Bearing (2) Fault (ball) Trial 11.csv,1,29
+Bearing (2) Fault (ball) Trial 12.csv,1,29
+Bearing (2) Fault (ball) Trial 13.csv,1,29
+Bearing (2) Fault (ball) Trial 14.csv,1,29
+Bearing (2) Fault (ball) Trial 15.csv,1,29
+Bearing (2) Fault (ball) Trial 16.csv,1,29
+Bearing (2) Fault (ball) Trial 17.csv,1,29
+Bearing (2) Fault (ball) Trial 18.csv,1,29
+Bearing (2) Fault (ball) Trial 19.csv,1,29
+Bearing (2) Fault (ball) Trial 2.csv,1,29
+Bearing (2) Fault (ball) Trial 20.csv,1,29
+Bearing (2) Fault (ball) Trial 21.csv,1,29
+Bearing (2) Fault (ball) Trial 22.csv,1,29
+Bearing (2) Fault (ball) Trial 23.csv,1,29
+Bearing (2) Fault (ball) Trial 24.csv,1,29
+Bearing (2) Fault (ball) Trial 25.csv,1,29
+Bearing (2) Fault (ball) Trial 3.csv,1,29
+Bearing (2) Fault (ball) Trial 4.csv,1,29
+Bearing (2) Fault (ball) Trial 5.csv,1,29
+Bearing (2) Fault (ball) Trial 6.csv,1,29
+Bearing (2) Fault (ball) Trial 7.csv,1,29
+Bearing (2) Fault (ball) Trial 8.csv,1,29
+Bearing (2) Fault (ball) Trial 9.csv,1,29
+Bearing (2) Fault (combination) Trial 1.csv,1,30
+Bearing (2) Fault (combination) Trial 10.csv,1,30
+Bearing (2) Fault (combination) Trial 11.csv,1,30
+Bearing (2) Fault (combination) Trial 12.csv,1,30
+Bearing (2) Fault (combination) Trial 13.csv,1,30
+Bearing (2) Fault (combination) Trial 14.csv,1,30
+Bearing (2) Fault (combination) Trial 15.csv,1,30
+Bearing (2) Fault (combination) Trial 16.csv,1,30
+Bearing (2) Fault (combination) Trial 17.csv,1,30
+Bearing (2) Fault (combination) Trial 18.csv,1,30
+Bearing (2) Fault (combination) Trial 19.csv,1,30
+Bearing (2) Fault (combination) Trial 2.csv,1,30
+Bearing (2) Fault (combination) Trial 20.csv,1,30
+Bearing (2) Fault (combination) Trial 21.csv,1,30
+Bearing (2) Fault (combination) Trial 22.csv,1,30
+Bearing (2) Fault (combination) Trial 23.csv,1,30
+Bearing (2) Fault (combination) Trial 24.csv,1,30
+Bearing (2) Fault (combination) Trial 25.csv,1,30
+Bearing (2) Fault (combination) Trial 3.csv,1,30
+Bearing (2) Fault (combination) Trial 4.csv,1,30
+Bearing (2) Fault (combination) Trial 5.csv,1,30
+Bearing (2) Fault (combination) Trial 6.csv,1,30
+Bearing (2) Fault (combination) Trial 7.csv,1,30
+Bearing (2) Fault (combination) Trial 8.csv,1,30
+Bearing (2) Fault (combination) Trial 9.csv,1,30
+Bearing (2) Fault (inner race) Trial 1.csv,1,31
+Bearing (2) Fault (inner race) Trial 2.csv,1,31
+Bearing (2) Fault (inner race) Trial 3.csv,1,31
+Bearing (2) Fault (inner) Trial 10.csv,1,31
+Bearing (2) Fault (inner) Trial 11.csv,1,31
+Bearing (2) Fault (inner) Trial 12.csv,1,31
+Bearing (2) Fault (inner) Trial 13.csv,1,31
+Bearing (2) Fault (inner) Trial 14.csv,1,31
+Bearing (2) Fault (inner) Trial 15.csv,1,31
+Bearing (2) Fault (inner) Trial 16.csv,1,31
+Bearing (2) Fault (inner) Trial 17.csv,1,31
+Bearing (2) Fault (inner) Trial 18.csv,1,31
+Bearing (2) Fault (inner) Trial 19.csv,1,31
+Bearing (2) Fault (inner) Trial 20.csv,1,31
+Bearing (2) Fault (inner) Trial 21.csv,1,31
+Bearing (2) Fault (inner) Trial 22.csv,1,31
+Bearing (2) Fault (inner) Trial 23.csv,1,31
+Bearing (2) Fault (inner) Trial 24.csv,1,31
+Bearing (2) Fault (inner) Trial 25.csv,1,31
+Bearing (2) Fault (inner) Trial 4.csv,1,31
+Bearing (2) Fault (inner) Trial 5.csv,1,31
+Bearing (2) Fault (inner) Trial 6.csv,1,31
+Bearing (2) Fault (inner) Trial 7.csv,1,31
+Bearing (2) Fault (inner) Trial 8.csv,1,31
+Bearing (2) Fault (inner) Trial 9.csv,1,31
+Bearing (2) Fault (outer race) Trial 1.csv,1,32
+Bearing (2) Fault (outer race) Trial 10.csv,1,32
+Bearing (2) Fault (outer race) Trial 11.csv,1,32
+Bearing (2) Fault (outer race) Trial 12.csv,1,32
+Bearing (2) Fault (outer race) Trial 13.csv,1,32
+Bearing (2) Fault (outer race) Trial 14.csv,1,32
+Bearing (2) Fault (outer race) Trial 15.csv,1,32
+Bearing (2) Fault (outer race) Trial 16.csv,1,32
+Bearing (2) Fault (outer race) Trial 17.csv,1,32
+Bearing (2) Fault (outer race) Trial 18.csv,1,32
+Bearing (2) Fault (outer race) Trial 19.csv,1,32
+Bearing (2) Fault (outer race) Trial 2.csv,1,32
+Bearing (2) Fault (outer race) Trial 20.csv,1,32
+Bearing (2) Fault (outer race) Trial 21.csv,1,32
+Bearing (2) Fault (outer race) Trial 22.csv,1,32
+Bearing (2) Fault (outer race) Trial 23.csv,1,32
+Bearing (2) Fault (outer race) Trial 24.csv,1,32
+Bearing (2) Fault (outer race) Trial 25.csv,1,32
+Bearing (2) Fault (outer race) Trial 3.csv,1,32
+Bearing (2) Fault (outer race) Trial 4.csv,1,32
+Bearing (2) Fault (outer race) Trial 5.csv,1,32
+Bearing (2) Fault (outer race) Trial 6.csv,1,32
+Bearing (2) Fault (outer race) Trial 7.csv,1,32
+Bearing (2) Fault (outer race) Trial 8.csv,1,32
+Bearing (2) Fault (outer race) Trial 9.csv,1,32
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 1.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 10.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 11.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 12.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 13.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 14.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 15.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 16.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 17.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 18.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 19.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 2.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 20.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 21.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 22.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 23.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 24.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 25.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 3.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 4.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 5.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 6.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 7.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 8.csv,1,33
+Bearing (2) Inner & Shaft Fault (Centerally bent) Trial 9.csv,1,33
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 1.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 10.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 11.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 12.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 13.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 14.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 15.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 16.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 17.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 18.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 19.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 2.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 20.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 21.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 22.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 23.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 24.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 25.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 3.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 4.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 5.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 6.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 7.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 8.csv,1,34
+Bearing (2) Inner & Shaft Fault (Coupling End Bent) Trial 9.csv,1,34
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 1.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 10.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 11.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 12.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 13.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 14.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 15.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 16.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 17.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 18.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 19.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 2.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 20.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 21.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 22.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 23.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 24.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 25.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 3.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 4.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 5.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 6.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 7.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 8.csv,1,35
+Bearing (2) Outer & Shaft Fault (Centerally bent) Trial 9.csv,1,35
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 1.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 10.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 11.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 12.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 13.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 14.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 15.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 16.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 17.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 18.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 19.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 2.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 20.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 21.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 22.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 23.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 24.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 25.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 3.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 4.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 5.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 6.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 7.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 8.csv,1,36
+Bearing (2) Outer & Shaft Fault (Coupling End bent) Trial 9.csv,1,36
+No Fault Trial 1.csv,0,37
+No Fault Trial 10.csv,0,37
+No Fault Trial 11.csv,0,37
+No Fault Trial 12.csv,0,37
+No Fault Trial 13.csv,0,37
+No Fault Trial 14.csv,0,37
+No Fault Trial 15.csv,0,37
+No Fault Trial 16.csv,0,37
+No Fault Trial 17.csv,0,37
+No Fault Trial 18.csv,0,37
+No Fault Trial 19.csv,0,37
+No Fault Trial 2.csv,0,37
+No Fault Trial 20.csv,0,37
+No Fault Trial 21.csv,0,37
+No Fault Trial 22.csv,0,37
+No Fault Trial 23.csv,0,37
+No Fault Trial 24.csv,0,37
+No Fault Trial 25.csv,0,37
+No Fault Trial 3.csv,0,37
+No Fault Trial 4.csv,0,37
+No Fault Trial 5.csv,0,37
+No Fault Trial 6.csv,0,37
+No Fault Trial 7.csv,0,37
+No Fault Trial 8.csv,0,37
+No Fault Trial 9.csv,0,37
+Shaft Fault (Centerally bent) Trial 1.csv,1,38
+Shaft Fault (Centerally bent) Trial 10.csv,1,38
+Shaft Fault (Centerally bent) Trial 11.csv,1,38
+Shaft Fault (Centerally bent) Trial 12.csv,1,38
+Shaft Fault (Centerally bent) Trial 13.csv,1,38
+Shaft Fault (Centerally bent) Trial 14.csv,1,38
+Shaft Fault (Centerally bent) Trial 15.csv,1,38
+Shaft Fault (Centerally bent) Trial 16.csv,1,38
+Shaft Fault (Centerally bent) Trial 17.csv,1,38
+Shaft Fault (Centerally bent) Trial 18.csv,1,38
+Shaft Fault (Centerally bent) Trial 19.csv,1,38
+Shaft Fault (Centerally bent) Trial 2.csv,1,38
+Shaft Fault (Centerally bent) Trial 20.csv,1,38
+Shaft Fault (Centerally bent) Trial 21.csv,1,38
+Shaft Fault (Centerally bent) Trial 22.csv,1,38
+Shaft Fault (Centerally bent) Trial 23.csv,1,38
+Shaft Fault (Centerally bent) Trial 24.csv,1,38
+Shaft Fault (Centerally bent) Trial 25.csv,1,38
+Shaft Fault (Centerally bent) Trial 3.csv,1,38
+Shaft Fault (Centerally bent) Trial 4.csv,1,38
+Shaft Fault (Centerally bent) Trial 5.csv,1,38
+Shaft Fault (Centerally bent) Trial 6.csv,1,38
+Shaft Fault (Centerally bent) Trial 7.csv,1,38
+Shaft Fault (Centerally bent) Trial 8.csv,1,38
+Shaft Fault (Centerally bent) Trial 9.csv,1,38
+Shaft Fault (Coupling end bent) Trial 1.csv,1,39
+Shaft Fault (Coupling end bent) Trial 10.csv,1,39
+Shaft Fault (Coupling end bent) Trial 11.csv,1,39
+Shaft Fault (Coupling end bent) Trial 12.csv,1,39
+Shaft Fault (Coupling end bent) Trial 13.csv,1,39
+Shaft Fault (Coupling end bent) Trial 14.csv,1,39
+Shaft Fault (Coupling end bent) Trial 15.csv,1,39
+Shaft Fault (Coupling end bent) Trial 16.csv,1,39
+Shaft Fault (Coupling end bent) Trial 17.csv,1,39
+Shaft Fault (Coupling end bent) Trial 18.csv,1,39
+Shaft Fault (Coupling end bent) Trial 19.csv,1,39
+Shaft Fault (Coupling end bent) Trial 2.csv,1,39
+Shaft Fault (Coupling end bent) Trial 20.csv,1,39
+Shaft Fault (Coupling end bent) Trial 21.csv,1,39
+Shaft Fault (Coupling end bent) Trial 22.csv,1,39
+Shaft Fault (Coupling end bent) Trial 23.csv,1,39
+Shaft Fault (Coupling end bent) Trial 24.csv,1,39
+Shaft Fault (Coupling end bent) Trial 25.csv,1,39
+Shaft Fault (Coupling end bent) Trial 3.csv,1,39
+Shaft Fault (Coupling end bent) Trial 4.csv,1,39
+Shaft Fault (Coupling end bent) Trial 5.csv,1,39
+Shaft Fault (Coupling end bent) Trial 6.csv,1,39
+Shaft Fault (Coupling end bent) Trial 7.csv,1,39
+Shaft Fault (Coupling end bent) Trial 8.csv,1,39
+Shaft Fault (Coupling end bent) Trial 9.csv,1,39

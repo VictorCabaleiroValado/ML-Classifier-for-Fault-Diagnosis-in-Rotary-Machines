@@ -1,0 +1,212 @@
+[
+  {
+    "rpm": 25,
+    "domain": "time",
+    "model": "linear",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "time",
+    "model": "logistic",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "time",
+    "model": "tree",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "time",
+    "model": "svm",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "time",
+    "model": "mlp",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 50,
+    "domain": "time",
+    "model": "linear",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "time",
+    "model": "logistic",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "time",
+    "model": "tree",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "time",
+    "model": "svm",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "time",
+    "model": "mlp",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "time",
+    "model": "linear",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "time",
+    "model": "logistic",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "time",
+    "model": "tree",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "time",
+    "model": "svm",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "time",
+    "model": "mlp",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 25,
+    "domain": "frequency",
+    "model": "linear",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "frequency",
+    "model": "logistic",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "frequency",
+    "model": "tree",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "frequency",
+    "model": "svm",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 25,
+    "domain": "frequency",
+    "model": "mlp",
+    "warnings": 0,
+    "data_status": "reconstructed_from_raw"
+  },
+  {
+    "rpm": 50,
+    "domain": "frequency",
+    "model": "linear",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "frequency",
+    "model": "logistic",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "frequency",
+    "model": "tree",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "frequency",
+    "model": "svm",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 50,
+    "domain": "frequency",
+    "model": "mlp",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "frequency",
+    "model": "linear",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "frequency",
+    "model": "logistic",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "frequency",
+    "model": "tree",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "frequency",
+    "model": "svm",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  },
+  {
+    "rpm": 75,
+    "domain": "frequency",
+    "model": "mlp",
+    "warnings": 0,
+    "data_status": "unverified_legacy"
+  }
+]

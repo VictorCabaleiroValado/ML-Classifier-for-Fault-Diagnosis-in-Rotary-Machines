@@ -1,0 +1,38 @@
+{
+  "e3bdabb9cc1c5ef213a1012220b8f638c49782e6d894eecbf144e1a1b47455e5": {
+    "filename": "time_domain_feature_extraction_50.csv",
+    "status": "unverified_legacy",
+    "note": "Original measurements unavailable. Historical labels were assigned by file order; frequency skewness/kurtosis semantics may be interchanged. Do not use for validated performance claims."
+  },
+  "0639a4ed6760a379e4ee746948159c5cc8f689189589933158482b0db7c83e8f": {
+    "filename": "time_domain_feature_extraction_75.csv",
+    "status": "unverified_legacy",
+    "note": "Original measurements unavailable. Historical labels were assigned by file order; frequency skewness/kurtosis semantics may be interchanged. Do not use for validated performance claims."
+  },
+  "f1b77c6c1a4130a06f309e24596308e6bd797827308c8c43f738db233876e288": {
+    "filename": "FF_feature_extraction_50.csv",
+    "status": "unverified_legacy",
+    "note": "Original measurements unavailable. Historical labels were assigned by file order; frequency skewness/kurtosis semantics may be interchanged. Do not use for validated performance claims."
+  },
+  "492f0ba0ee3b8e69543a7603874e196531d4976055a4a35023e2088cba8ad7ef": {
+    "filename": "FF_feature_extraction_75.csv",
+    "status": "unverified_legacy",
+    "note": "Original measurements unavailable. Historical labels were assigned by file order; frequency skewness/kurtosis semantics may be interchanged. Do not use for validated performance claims."
+  },
+  "455e28727dbb299a80dc284a075b44dc8155e759e7921b10d206ea917e442424": {
+    "filename": "time_domain_feature_extraction_25.csv",
+    "status": "reconstructed_from_raw",
+    "manifest": "data/manifests/25_rpm.csv",
+    "labels": "Source filenames; inner/inner-race alias documented in docs/DATA_PROVENANCE.md",
+    "source_count": 975,
+    "legacy_skip_rows": 3
+  },
+  "11be36e3731c39d70c32d87c1f87f4e29b7a6f0a43511d8c86abeabd6fb6408f": {
+    "filename": "FF_feature_extraction_25.csv",
+    "status": "reconstructed_from_raw",
+    "manifest": "data/manifests/25_rpm.csv",
+    "labels": "Source filenames; inner/inner-race alias documented in docs/DATA_PROVENANCE.md",
+    "source_count": 975,
+    "legacy_skip_rows": 3
+  }
+}
