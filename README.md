@@ -21,7 +21,7 @@ The four historical 50/75 RPM tables require `--allow-unverified-data`. Their nu
 Use Python **3.9–3.12**. The exact tested dependency set is provided in `requirements-lock.txt`.
 
 ```bash
-git clone https://github.com/VictorValado/ML-Classifier-for-Fault-Diagnosis-in-Rotary-Machines.git
+git clone https://github.com/VictorCabaleiroValado/ML-Classifier-for-Fault-Diagnosis-in-Rotary-Machines.git
 cd ML-Classifier-for-Fault-Diagnosis-in-Rotary-Machines
 python -m venv .venv
 ```
@@ -113,4 +113,6 @@ python -m pytest -q
 
 GitHub Actions runs the test suite on Linux with Python 3.11 and 3.12. See [scikit-learn's guidance on data leakage](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage) for the rationale behind training-only preprocessing.
 
-Maintained by [Victor Cabaleiro Valado](https://github.com/VictorValado) · [LinkedIn](https://www.linkedin.com/in/victor-cabaleiro-valado/)
+**[Explore my professional portfolio](https://victorcabaleirovalado.github.io/)**
+
+Maintained by [Victor Cabaleiro Valado](https://github.com/VictorCabaleiroValado) · [LinkedIn](https://www.linkedin.com/in/victor-cabaleiro-valado/)
