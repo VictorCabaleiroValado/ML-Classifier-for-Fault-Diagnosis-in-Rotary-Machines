@@ -1,9 +1,22 @@
-// Run with: node demo/check_browser_model.cjs /path/to/exported/data.json
+// node demo/check_browser_model.cjs /path/to/exported/data.json
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const data=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));
-const code=fs.readFileSync(__dirname+'/demo.js','utf8').split("fetch('data.json')")[0];
-const ctx={};vm.createContext(ctx);vm.runInContext(code,ctx);
-assert.equal(data.examples.length,39);
-for(const e of data.examples){assert(!data.trainIndices.includes(e.id));assert(data.testIndices.includes(e.id));assert.equal(ctx.predict(data.tree,e.features).category,e.expectedPrediction);assert.equal(e.features.length,72);assert(e.signal.length<=480);}
+const ctx={module:{exports:{}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(__dirname+'/demo.js','utf8'),ctx);
+const {predict,sampleRange,validateData,featureInfo}=ctx.module.exports;
+validateData(data);
 assert.equal(new Set(data.examples.map(e=>e.category)).size,39);
-console.log('All 39 browser predictions match Python; holdout membership and signal dimensions verified.');
+assert.equal(new Set(data.trainIndices).size,data.trainCount);
+assert.equal(new Set(data.testIndices).size,data.testCount);
+assert(data.testIndices.every(i=>!data.trainIndices.includes(i)));
+for(const e of data.examples){
+ assert.equal(predict(data.tree,e.features).category,e.expectedPrediction);
+ assert.equal(e.samples,64000);assert(e.signal.length<=480);
+ for(const mode of ['full','first','middle','last']){const [a,b]=sampleRange(mode,e.samples);assert(a>=0&&b<e.samples&&a<b);assert(e.signal.filter(p=>p[0]>=a&&p[0]<=b).length>1);}
+ for(const f of data.features)assert(featureInfo(f).title);
+}
+assert.equal(data.examples.filter(e=>predict(data.tree,e.features).category!==e.category).length,3);
+const tree={left:[1,-1,-1],right:[2,-1,-1],feature:[0,-2,-2],threshold:[1,-2,-2],category:[0,10,20]};
+assert.equal(predict(tree,[1]).category,10);assert.equal(predict(tree,[1+1e-8]).category,10);assert.equal(predict(tree,[1.1]).category,20);
+const bad=JSON.parse(JSON.stringify(data));bad.examples[0].features[0]=null;assert.throws(()=>validateData(bad));
+const leaked=JSON.parse(JSON.stringify(data));leaked.trainIndices.push(leaked.examples[0].id);assert.throws(()=>validateData(leaked));
+console.log('PASS: all 39 Python/browser predictions, 3 disagreements, split separation, 156 chart ranges, all feature names, float32 boundaries and invalid-data rejection.');
