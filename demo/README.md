@@ -2,7 +2,7 @@
 
 [Explore the interactive demo](https://victorcabaleirovalado.github.io/demo/)
 
-A beginner-friendly engineering demo using real 25 RPM measurements, styled to match the portfolio: Geist typography, dark surfaces and light-blue accents. The main view contains only measurement selection, a motor-signal comparison and the model result. Features, the complete decision path, evaluation and provenance are available in optional disclosure panels. Plain-language guidance explains what sensors measure, how to read the plot, what bearings and shafts do, and how a correct or incorrect prediction is checked against the source label.
+A beginner-friendly engineering demo using real 25 RPM measurements, styled to match the portfolio: Geist typography, dark surfaces and light-blue accents. The main view guides visitors through three starter examples, a simplified machine diagram, a motor-signal comparison and the model result. The diagram highlights components from the recorded source description, never from the prediction. The complete 39-example selector is optional. Everyday washing-machine and bicycle analogies explain the idea without claiming those devices supplied the data. Features, the complete decision path, evaluation and provenance are available in optional disclosure panels. Plain-language guidance explains what sensors measure, how to read the plot, what bearings and shafts do, and how a correct or incorrect prediction is checked against the source label.
 
 ## Interactive workflow
 
