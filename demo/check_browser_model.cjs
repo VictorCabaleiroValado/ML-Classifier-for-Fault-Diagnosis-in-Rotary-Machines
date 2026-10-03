@@ -2,9 +2,13 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const data=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));
 const ctx={module:{exports:{}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(__dirname+'/demo.js','utf8'),ctx);
-const {predict,sampleRange,validateData,featureInfo}=ctx.module.exports;
+const {predict,sampleRange,validateData,featureInfo,friendlyCondition}=ctx.module.exports;
 validateData(data);
 assert.equal(new Set(data.examples.map(e=>e.category)).size,39);
+assert.equal(new Set(data.examples.map(e=>friendlyCondition(e.label))).size,39);
+assert.equal(friendlyCondition('No Fault'),'No fault recorded');
+assert.equal(friendlyCondition('Bearing (1) Fault (outer race)'),'Bearing 1: outer ring damage');
+assert.equal(friendlyCondition('Shaft Fault (Coupling end bent)'),'Shaft bent near the joint');
 assert.equal(new Set(data.trainIndices).size,data.trainCount);
 assert.equal(new Set(data.testIndices).size,data.testCount);
 assert(data.testIndices.every(i=>!data.trainIndices.includes(i)));

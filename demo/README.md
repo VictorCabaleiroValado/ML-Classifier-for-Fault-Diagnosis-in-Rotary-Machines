@@ -2,13 +2,13 @@
 
 [Explore the interactive demo](https://victorcabaleirovalado.github.io/demo/)
 
-A focused engineering demo using real 25 RPM measurements, styled to match the portfolio: Geist typography, dark surfaces and light-blue accents. The main view contains only measurement selection, a motor-signal comparison and the model result. Features, the complete decision path, evaluation and provenance are available in optional disclosure panels.
+A beginner-friendly engineering demo using real 25 RPM measurements, styled to match the portfolio: Geist typography, dark surfaces and light-blue accents. The main view contains only measurement selection, a motor-signal comparison and the model result. Features, the complete decision path, evaluation and provenance are available in optional disclosure panels. Plain-language guidance explains what sensors measure, how to read the plot, what bearings and shafts do, and how a correct or incorrect prediction is checked against the source label.
 
 ## Interactive workflow
 
 1. Choose any of 39 held-out measurements. Suggested cases include No Fault, a bearing fault and a model disagreement; shaft conditions remain in the selector.
 2. Compare the motor overview with one No Fault reference on a shared vertical scale. Inspect the full recording, first/last quarter or middle half.
-3. Run the tree on the full feature vector. Compare the predicted category with the recorded label, which is preserved verbatim.
+3. Run the tree on the full feature vector. Compare a readable predicted condition with the readable source condition. The original dataset labels remain available under the data details and in JSON exports.
 4. Explore all eight statistics for each of nine channels. Features used by this prediction are highlighted after analysis.
 5. Follow every threshold check. Download the analysis as JSON or all 72 selected/reference features as CSV.
 
