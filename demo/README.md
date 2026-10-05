@@ -24,7 +24,7 @@ cp demo/index.html demo/style.css demo/demo.js /tmp/vibration-demo/
 python -m http.server 8000 --directory /tmp/vibration-demo
 ```
 
-Open http://localhost:8000. Original measurements are required for regeneration and are not bundled here. The published JSON includes the tree, 39 derived signal overviews, full feature vectors, filenames and hashes, split indices, feature-table hash and package versions. The 2026 interface redesign preserves that export unchanged.
+Open http://localhost:8000. Original measurements are required for regeneration and are not bundled here. To run the already-exported demo, serve this directory directly. The published JSON includes the tree, 39 derived signal overviews, full feature vectors, filenames and hashes, split indices, feature-table hash and package versions. The current export also creates 78 synthetic scenarios, named signal CSVs and a provenance manifest. All assets needed to run the demo are now bundled.
 
 ## Evaluation and limits
 
@@ -50,3 +50,9 @@ node demo/check_browser_model.cjs /path/to/exported/data.json
 ```
 
 Checks cover all 39 expected predictions, split separation, 156 signal ranges, feature names, float32 threshold boundaries and invalid/training-contaminated examples. UI checks additionally cover case selection, stale-result reset, sensor selection, reference toggling and JSON/CSV downloads. The portfolio stores identical UI files under `public/demo/` and published `docs/demo/`.
+
+## Speed scenarios and clearer file selection
+
+Use the speed selector to switch between real 25 RPM recordings and synthetic 50/75 RPM scenarios. Search conditions or filenames; the selected filename, data type and speed remain visible above the chart. Synthetic full-signal CSVs can be downloaded directly. Feature CSV and analysis JSON filenames include provenance, speed, condition and parent row. Changing datasets removes old results and event handlers. Real accuracy is displayed only in the real dataset.
+
+[Full synthetic methodology](../docs/SYNTHETIC_SCENARIOS.md) documents the transformation, assumptions, reproduction and validation limits. Browser checks also run against `synthetic-50.json` and `synthetic-75.json`.

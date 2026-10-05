@@ -26,3 +26,7 @@ The original 50 and 75 RPM measurements are unavailable. Their tables pass struc
 - Captured input hashes, provenance, split indices, software versions and warnings in evaluation reports.
 
 Root-level historical result logs and the original PDF were not recomputed or rewritten. They are not evidence for the corrected implementation. New evaluation files are exploratory software validation, not a deployment or independent scientific validation.
+
+## Synthetic speed scenarios (October 2026)
+
+The interactive demo now includes 78 explicitly synthetic 50/75 RPM scenarios derived from 39 real held-out 25 RPM parents. These are stored separately from all historical feature tables. Each downloadable signal has a descriptive filename, hash, inherited label, source-file hash and parent-row link. A deterministic resampling/gain/noise transformation supports software stress tests; it does not establish physically correct higher-speed behavior or remove the missing-measurement limitation. See [the complete synthetic methodology](SYNTHETIC_SCENARIOS.md).

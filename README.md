@@ -18,6 +18,14 @@ An academic Python workflow for fault detection and classification from rotary-m
 
 The four historical 50/75 RPM tables require `--allow-unverified-data`. Their numeric structure is valid, but their labels and feature semantics cannot be verified without raw measurements. They are not suitable for validated performance claims. The historical root-level `*_RPM_Results.txt` files predate these fixes and are superseded for current evaluation.
 
+## Interactive demo: real data and synthetic speed scenarios
+
+[Open the demo](https://victorcabaleirovalado.github.io/demo/) to compare **39 real 25 RPM examples** with **78 explicitly synthetic 50/75 RPM scenarios**. Select the speed/data origin, filter conditions, inspect the exact tree decision and download clearly named signal CSVs, feature comparisons and analysis JSON.
+
+Synthetic signals are reproducible transformations of held-out 25 RPM parents, with hashes and inherited labels. They never enter model training or the real holdout metric. They add useful software stress tests; they do not recover missing measurements or validate historical 50/75 RPM labels. [Method, assumptions and reproducibility](docs/SYNTHETIC_SCENARIOS.md).
+
+The demo is bundled locally: `python -m http.server 8000 --directory demo`, then open `http://localhost:8000`.
+
 ## Quick start
 
 Use Python **3.9–3.12**. The exact tested dependency set is provided in `requirements-lock.txt`.

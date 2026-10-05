@@ -14,13 +14,16 @@ assert.equal(new Set(data.testIndices).size,data.testCount);
 assert(data.testIndices.every(i=>!data.trainIndices.includes(i)));
 for(const e of data.examples){
  assert.equal(predict(data.tree,e.features).category,e.expectedPrediction);
- assert.equal(e.samples,64000);assert(e.signal.length<=480);
+ assert.equal(e.samples,data.kind==='real'?64000:4096);assert(e.signal.length<=480);
  for(const mode of ['full','first','middle','last']){const [a,b]=sampleRange(mode,e.samples);assert(a>=0&&b<e.samples&&a<b);assert(e.signal.filter(p=>p[0]>=a&&p[0]<=b).length>1);}
  for(const f of data.features)assert(featureInfo(f).title);
 }
-assert.equal(data.examples.filter(e=>predict(data.tree,e.features).category!==e.category).length,3);
+if(data.kind==='real')assert.equal(data.examples.filter(e=>predict(data.tree,e.features).category!==e.category).length,3);
+else assert.equal(data.accuracy,null);
+const cyclic=JSON.parse(JSON.stringify(data));cyclic.tree.left[0]=0;assert.throws(()=>validateData(cyclic));
+const disguised=JSON.parse(JSON.stringify(data));disguised.examples[0].kind='unknown';assert.throws(()=>validateData(disguised));
 const tree={left:[1,-1,-1],right:[2,-1,-1],feature:[0,-2,-2],threshold:[1,-2,-2],category:[0,10,20]};
 assert.equal(predict(tree,[1]).category,10);assert.equal(predict(tree,[1+1e-8]).category,10);assert.equal(predict(tree,[1.1]).category,20);
 const bad=JSON.parse(JSON.stringify(data));bad.examples[0].features[0]=null;assert.throws(()=>validateData(bad));
 const leaked=JSON.parse(JSON.stringify(data));leaked.trainIndices.push(leaked.examples[0].id);assert.throws(()=>validateData(leaked));
-console.log('PASS: all 39 Python/browser predictions, 3 disagreements, split separation, 156 chart ranges, all feature names, float32 boundaries and invalid-data rejection.');
+console.log(`PASS: ${data.rpm} RPM ${data.kind}: 39 predictions, split separation, 156 chart ranges, feature names, float32 boundaries, cycle and provenance rejection.`);
