@@ -2,7 +2,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const data=JSON.parse(fs.readFileSync(process.argv[2],'utf8'));
 const ctx={module:{exports:{}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(__dirname+'/demo.js','utf8'),ctx);
-const {predict,sampleRange,validateData,featureInfo,friendlyCondition}=ctx.module.exports;
+const {predict,sampleRange,validateData,featureInfo,friendlyCondition,scenarioSummary,resultAssessment}=ctx.module.exports;
 validateData(data);
 assert.equal(new Set(data.examples.map(e=>e.category)).size,39);
 assert.equal(new Set(data.examples.map(e=>friendlyCondition(e.label))).size,39);
@@ -27,3 +27,20 @@ assert.equal(predict(tree,[1]).category,10);assert.equal(predict(tree,[1+1e-8]).
 const bad=JSON.parse(JSON.stringify(data));bad.examples[0].features[0]=null;assert.throws(()=>validateData(bad));
 const leaked=JSON.parse(JSON.stringify(data));leaked.trainIndices.push(leaked.examples[0].id);assert.throws(()=>validateData(leaked));
 console.log(`PASS: ${data.rpm} RPM ${data.kind}: 39 predictions, split separation, 156 chart ranges, feature names, float32 boundaries, cycle and provenance rejection.`);
+
+const summary=scenarioSummary(data);
+assert.equal(summary.total,39);
+assert.equal(summary.labelMatches,{25:36,50:5,75:6}[data.rpm]);
+assert.equal(summary.unchanged,{25:39,50:4,75:6}[data.rpm]);
+// A correct source-label guess can still be a changed prediction, and an
+// unchanged prediction can still disagree with the inherited label.
+for(const [category,parent,predicted,labelMatch,unchanged] of [
+ [1,2,1,true,false],[1,2,2,false,true],[1,1,1,true,true],[1,1,2,false,false]
+]){
+ const a=resultAssessment({kind:'synthetic'},{category,parentPrediction:parent},predicted);
+ assert.equal(a.labelMatches,labelMatch);assert.equal(a.sameAsParent,unchanged);
+ assert.equal(a.validatedDiagnosis,false);assert.equal(a.className,'match sensitivity');
+ assert.equal(a.text,unchanged?'Prediction unchanged by transformation':'Prediction changed by transformation');
+}
+assert.equal(resultAssessment({kind:'real'},{category:1,parentPrediction:1},2).text,'× Wrong for this example');
+console.log('PASS: source-label agreement and parent-prediction stability remain distinct; synthetic outputs never claim validated diagnosis.');

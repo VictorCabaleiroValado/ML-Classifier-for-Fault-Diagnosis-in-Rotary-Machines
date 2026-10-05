@@ -1,6 +1,6 @@
 # Synthetic 50 / 75 RPM scenarios
 
-These scenarios make the software demonstrable at three selectable speed labels. **They are not recovered measurements, a calibrated physical model, or evidence of diagnosis accuracy at 50/75 RPM.** The historical feature tables remain unchanged and unverified.
+These scenarios test the sensitivity of a 25 RPM classifier to artificial signal changes. The numbers 50/75 RPM are nominal scenario names, not operating points demonstrated by this model. **They are not recovered measurements, a calibrated physical model, or evidence of diagnosis accuracy at 50/75 RPM.** The historical feature tables remain unchanged and unverified.
 
 ## Method and assumptions
 
@@ -13,6 +13,12 @@ These scenarios make the software demonstrable at three selectable speed labels.
 The resulting 78 synthetic CSVs cover 39 inherited conditions at each scenario label. The transformations share parents, so they are neither new independent experiments nor new confirmed faults. Tachometer and other channels are treated as numeric signals; their synthetic values do not validate RPM. Aliasing suppression, cropping, gain and noise can change class information. This is useful for observing distribution shift, not for drawing physical conclusions.
 
 ## Interpretation
+
+The bundled results show poor transfer to these perturbations: only **5/39** outputs at nominal 50 RPM and **6/39** at nominal 75 RPM match the inherited labels. Only **4/39** and **6/39**, respectively, retain the same prediction as their real 25 RPM parent. These are different comparisons: a stable prediction may already disagree with its source label, and a changed prediction may happen to agree.
+
+The interface shows these counts before analysis and treats synthetic outputs as sensitivity results, not correct/incorrect diagnoses at higher speeds. Both changed and unchanged examples are accessible; all 39 cases remain available. Labels, signals and the fitted model are unchanged. We do not tune perturbations, relabel outputs or train on test descendants to manufacture agreement. Software parity tests passing means the intended calculation executes, not that the classifier generalizes to these inputs.
+
+Cropping, resampling, gain and noise all change together; this is not an ablation that identifies a causal speed effect. Reliable higher-speed diagnosis still requires verified measurements and independent evaluation at those speeds.
 
 The 25 RPM real row-level holdout metric remains 187/195 (95.9%), subject to the existing acquisition-independence and filename-label limits. It is never assigned to the synthetic datasets. Synthetic JSON has `accuracy: null`; the UI reports only agreements with **inherited** labels. The model is not retrained on descendants. The browser resets the result whenever speed or condition changes.
 

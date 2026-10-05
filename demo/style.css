@@ -11,3 +11,5 @@
 .dataset-toolbar{display:flex;align-items:center;gap:28px;margin-bottom:18px;padding:22px}.dataset-toolbar .select-field{min-width:260px}.dataset-toolbar p{margin:0;color:#c4d4e9;line-height:1.6}.dataset-toolbar.synthetic{border-color:#a47946;background:#211b15}.selected-file{overflow-wrap:anywhere;font-size:12px;color:#a9bfdc}.more-examples input{display:block;width:100%;box-sizing:border-box;padding:12px;margin:8px 0 16px;background:#121b29;color:#e6eefb;border:1px solid #40536d;border-radius:8px}.more-examples select{max-width:100%}#download-raw{display:inline-block;margin-bottom:16px}#download-raw[hidden]{display:none}@media(max-width:700px){.dataset-toolbar{display:block}.dataset-toolbar p{margin-top:14px}.dataset-toolbar .select-field{min-width:0}.more-examples{max-width:100%}}
 
 .parent-comparison{border-top:1px solid #566275;padding-top:16px;color:#d6e5fb!important}
+
+.match.sensitivity{background:#3a3020;color:#f4ca87;border:1px solid #9b7947}
