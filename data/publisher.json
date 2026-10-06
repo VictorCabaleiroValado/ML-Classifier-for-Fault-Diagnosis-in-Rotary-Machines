@@ -1,0 +1,15 @@
+{
+  "title": "Single and Double Fault Scenarios for a Rotary Machine",
+  "author": "David Jensen",
+  "published": "2023-04-25",
+  "url": "https://figshare.com/articles/dataset/Single_and_Double_Fault_Scenarios_for_a_Rotary_Machine/22693120",
+  "doi": "10.6084/m9.figshare.22693120.v1",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "publisher_sampling_rate_hz": 6400,
+  "files": {
+    "25": {"name": "Fault data split 25.zip", "id": 40288855, "bytes": 4726862392, "md5": "d91575636d4aea3e467250febaa4f9e9", "url": "https://ndownloader.figshare.com/files/40288855"},
+    "50": {"name": "Fault data split 50.zip", "id": 40292614, "bytes": 4983597508, "md5": "7ff5427aaa1e58dafe1e83169aa44657", "url": "https://ndownloader.figshare.com/files/40292614"},
+    "75": {"name": "Fault data split 75.zip", "id": 40292608, "bytes": 5122519200, "md5": "8c7d758fd66260588be65c8e3722481d", "url": "https://ndownloader.figshare.com/files/40292608"}
+  }
+}

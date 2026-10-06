@@ -128,7 +128,7 @@ def evaluate(path, domain, model='tree', seed=42, test_size=0.2, group_column=No
     provenance = json.loads(catalog.read_text()).get(digest, {}) if catalog.exists() else {}
     if provenance.get('status') == 'unverified_legacy' and not allow_unverified_data:
         raise ValueError('Historical labels and feature semantics could not be verified against raw measurements. '
-                         'Use the reconstructed 25 RPM tables, or --allow-unverified-data for legacy exploration only.')
+                         'Use the reconstructed measurement tables, or --allow-unverified-data for legacy exploration only.')
     if group_column and (group_column not in df or group_column in feature_columns(domain) + list(TARGETS)):
         raise ValueError('Group column must be a separate metadata column in the feature table.')
     groups = df[group_column] if group_column else None
@@ -142,7 +142,7 @@ def evaluate(path, domain, model='tree', seed=42, test_size=0.2, group_column=No
         'feature_count': len(X.columns), 'train_indices': train.tolist(), 'test_indices': test.tolist(),
         'versions': {'python': sys.version.split()[0], 'numpy': np.__version__, 'pandas': pd.__version__,
                      'scipy': scipy.__version__, 'scikit-learn': sklearn.__version__},
-        'caveat': 'Exploratory holdout results; original run independence and label provenance require source verification.',
+        'caveat': 'Exploratory row holdout; labels trace source filenames. Related acquisitions may cross the split; independent-run and independent-machine generalization are not established.',
         'tasks': {},
     }
     for target in TARGETS:

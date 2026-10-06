@@ -34,8 +34,8 @@ def test_transform_is_deterministic_and_does_not_mutate_source():
 
 @pytest.mark.parametrize('rpm', [50, 75])
 def test_published_scenarios_have_exact_csv_features_and_heldout_parents(rpm):
-    real = json.loads((ROOT / 'demo/data.json').read_text())
-    data = json.loads((ROOT / f'demo/synthetic-{rpm}.json').read_text())
+    real = json.loads((ROOT / 'demo/archive/data.json').read_text())
+    data = json.loads((ROOT / f'demo/archive/synthetic-{rpm}.json').read_text())
     parents = {e['id']: e for e in real['examples']}
     assert data['accuracy'] is None
     assert data['kind'] == 'synthetic'
@@ -51,7 +51,7 @@ def test_published_scenarios_have_exact_csv_features_and_heldout_parents(rpm):
         assert e['label'] == parent['label']
         assert e['labelBasis'] == 'inherited_from_25rpm_parent'
         assert e['kind'] == 'synthetic' and e['rpm'] == rpm
-        path = ROOT / 'demo' / e['rawCsv']
+        path = ROOT / 'demo/archive' / e['rawCsv']
         assert path.name.startswith(f'synthetic_{rpm}rpm_')
         assert hashlib.sha256(path.read_bytes()).hexdigest() == e['sha256']
         samples = pd.read_csv(path)

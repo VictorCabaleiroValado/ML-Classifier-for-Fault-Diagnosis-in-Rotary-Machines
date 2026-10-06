@@ -8,21 +8,19 @@ An academic Python workflow for fault detection and classification from rotary-m
 
 [Project report](CAPSTONE%20PROJECT.pdf) · [Data provenance](docs/DATA_PROVENANCE.md) · [Validation results](results/validated/README.md)
 
-## Data status
+## Original measurements recovered at all three speeds
 
-| Speed | Time features | Frequency features | Recommended use |
-| :--- | :--- | :--- | :--- |
-| 25 RPM | Rebuilt from 975 original measurements | Rebuilt from the same measurements | Default exploration, with filename-based labels |
-| 50 RPM | Historical table | Historical table | Explicit opt-in; original measurements unavailable |
-| 75 RPM | Restored from the owner's local CSV | Historical table | Explicit opt-in; original measurements unavailable |
+All six feature tables now derive from **2,925 original recordings**: 975 each at 25, 50 and 75 RPM, with 39 filename-defined conditions and 25 trials per condition. The 50/75 RPM archives were recovered from [David Jensen's published dataset](https://doi.org/10.6084/m9.figshare.22693120.v1), **CC BY 4.0**, and checked against publisher sizes and MD5 checksums. Per-recording SHA-256 hashes, original filenames and extraction metadata provide traceability.
 
-The four historical 50/75 RPM tables require `--allow-unverified-data`. Their numeric structure is valid, but their labels and feature semantics cannot be verified without raw measurements. They are not suitable for validated performance claims. The historical root-level `*_RPM_Results.txt` files predate these fixes and are superseded for current evaluation.
+The maintained tables replace the historical positional labels and correct FFT skewness/kurtosis semantics. Labels are derived from the original filenames; they are not inherited from a transformed 25 RPM signal. This establishes source provenance, not independent physical certification or generalization to a new machine.
 
-## Interactive demo: real data and synthetic speed scenarios
+## Interactive demo: three real speeds, three models
 
-[Open the demo](https://victorcabaleirovalado.github.io/demo/) to compare **39 real 25 RPM examples** with **78 explicitly synthetic 50/75 RPM scenarios**. Select the speed/data origin, filter conditions, inspect the exact tree decision and download clearly named signal CSVs, feature comparisons and analysis JSON.
+[Open the demo](https://victorcabaleirovalado.github.io/demo/) to explore **117 real held-out examples**, 39 at each measured speed. Each selection loads a decision tree trained only on the corresponding speed, its own holdout score, source filename, features and decision path. Examples are selected by the lowest held-out row index per category, without choosing for successful predictions.
 
-Synthetic signals are reproducible transformations of held-out 25 RPM parents, with hashes and inherited labels. They never enter model training or the real holdout metric. They add useful software stress tests; they do not recover missing measurements or validate historical 50/75 RPM labels. [Method, assumptions and reproducibility](docs/SYNTHETIC_SCENARIOS.md).
+CSV exports have names such as `real_75rpm_no_fault_source0900_features.csv`; they contain the 72 feature comparisons, not a full waveform. Analysis JSON identifies the selected speed and model. Original signals remain available through the publisher archive links. The local project retains both complete 50/75 RPM ZIPs; multi-gigabyte originals are not duplicated into GitHub Pages.
+
+Earlier synthetic stress tests remain under `demo/archive/` for historical reproducibility and are no longer selectable in the demo. Their inherited labels and scores must not be confused with the recovered real measurements.
 
 The demo is bundled locally: `python -m http.server 8000 --directory demo`, then open `http://localhost:8000`.
 
@@ -74,7 +72,14 @@ Available models: `tree`, `logistic`, `svm`, `mlp`, `linear`.
 
 ## Regenerate features from original measurements
 
-Raw measurements are not included. Each dataset requires a manifest with **explicit labels**:
+Raw archives are linked in [data/publisher.json](data/publisher.json). Rebuild recovered 50/75 RPM data directly from a downloaded ZIP (validates publisher checksum and every member before replacing active tables):
+
+```bash
+python recover_measurements.py --rpm 50 --archive "/path/to/Fault data split 50.zip"
+python recover_measurements.py --rpm 75 --archive "/path/to/Fault data split 75.zip"
+```
+
+No full uncompressed copy is required. For other sources, each dataset requires a manifest with **explicit labels**:
 
 ```csv
 filename,fault_detected,fault_category
@@ -84,7 +89,7 @@ bearing_trial.csv,1,2
 
 An optional `group_id` column preserves real acquisition-run IDs. Never derive them from arbitrary row blocks. Paths are relative to `--raw-dir`. `fault_detected` is 0 for healthy and 1 for a fault; `fault_category` is a positive integer, with a consistent detection flag per category.
 
-The 25 RPM manifest and category names are included under [data/manifests](data/manifests). The category IDs in the rebuilt 25 RPM data must not be interpreted using the legacy 50/75 RPM numbering.
+The three manifests and category names are included under [data/manifests](data/manifests). Rebuilt tables use the same explicit 39-category map at every speed. Legacy positional numbering is superseded.
 
 For a standard CSV, use the named columns `Tachometer, Motor, B1_Z, B1_Y, B1_X, B2_Z, B2_Y, B2_X, Gearbox`:
 
@@ -94,7 +99,7 @@ python fault_diagnosis.py extract --rpm 25 --domain time \
   --output results/local/time_domain_feature_extraction_25.csv
 ```
 
-The original 25 RPM files have 18 alternating timestamp/sensor columns and three metadata rows after the header. For those files, add **`--legacy-skip-rows 3`**. This setting was checked against their actual layout. Do not assume it applies to other instruments.
+The verified original files at all three speeds have 18 alternating timestamp/sensor columns and three metadata rows after the header. For extracted files in that layout, add **`--legacy-skip-rows 3`**. This setting was checked against their actual layout. Do not assume it applies to other instruments.
 
 Use `--domain frequency` for FFT features. Default output names match the classifier: `FF_feature_extraction_<RPM>.csv` and `time_domain_feature_extraction_<RPM>.csv`.
 
@@ -106,6 +111,7 @@ Constant signals have zero variance/skewness/kurtosis by documented convention; 
 
 | Path | Purpose |
 | :--- | :--- |
+| `recover_measurements.py` | Check publisher ZIPs and rebuild both feature domains with source hashes |
 | `fault_diagnosis.py` | Shared classifier, validation, extraction and CLI |
 | `ML_Classifier_Code.py`, `ML_Classifer_Code_with_Menu.py` | Compatibility classifier entry points |
 | `Time_Domain_FE*.py`, `Frequency_Domain_FE*.py` | Compatibility extraction entry points; use `--help` |

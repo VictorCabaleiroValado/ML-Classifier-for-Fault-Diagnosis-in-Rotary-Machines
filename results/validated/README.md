@@ -1,24 +1,26 @@
-# Execution validation
+# Reconstructed-data evaluation
 
-The current reports cover **30 combinations**: three speeds × two feature domains × five models, with both detection and categorization evaluated separately (60 fitted target models).
+All **30 combinations** (three speeds × two domains × five models, two target estimators each) were rerun on 5 October 2026 with reconstructed original measurements. Every report hash matches its current feature table and every provenance record is `reconstructed_from_raw`. No convergence warnings occurred in this run.
 
-These are **software execution checks and exploratory holdout evaluations**, not an independent scientific benchmark. The data status is embedded in every report:
+## Time-domain decision trees used by the demo
 
-- **25 RPM:** features reconstructed from original measurements with explicit filename-derived labels.
-- **50/75 RPM:** historical tables run with explicit `--allow-unverified-data`. Their performance scores must not be used as validated diagnostic accuracy, because original measurements were unavailable for checking labels and feature semantics.
+| Speed | Correct categories | Category accuracy | Macro-F1 | Correct binary detection |
+|---|---:|---:|---:|---:|
+| 25 RPM | 187/195 | 95.8974% | 0.9569 | 195/195 |
+| 50 RPM | 189/195 | 96.9231% | 0.9676 | 195/195 |
+| 75 RPM | 188/195 | 96.4103% | 0.9638 | 195/195 |
 
-Each JSON file records a data SHA-256, training and test row indices, dependency versions, seed, task metrics, confusion matrices where applicable, and estimator warnings. The files can be reproduced with the corresponding CLI arguments. For example:
+Each speed has its own model, 780 training rows and 195 held-out rows, stratified by category with seed 42. The demo's 39 examples per speed are a deterministic subset, not the denominator of these accuracy values. All labels are derived from original filenames. This is an exploratory row-level holdout, not independent acquisition/machine validation or calibrated confidence.
+
+Only 25 of 975 recordings per speed are healthy. An always-fault binary classifier would already score 97.44%; use per-class recall and confusion matrices rather than binary accuracy alone.
+
+At 50 RPM, one original recording has 34,044 samples while the other 974 have 64,000; all 75 RPM recordings have 64,000. The shorter record is retained as supplied. Full-recording frequency summaries use an unnormalized FFT and carry a duration-comparability limitation. See [data provenance](../../docs/DATA_PROVENANCE.md).
 
 ```bash
-python fault_diagnosis.py evaluate --rpm 25 --domain time --model tree --seed 42
+python fault_diagnosis.py evaluate --rpm 50 --domain time --model tree --seed 42
+python fault_diagnosis.py evaluate --rpm 75 --domain frequency --model logistic --seed 42
 ```
 
-To explicitly explore historical data:
+No `--allow-unverified-data` flag is needed for current tables. Reports include both tasks, matrices, source hashes, split indices and dependency versions. Regression MSE/R² for the linear baseline is not classification accuracy. Historical reports before recovery remain in Git history.
 
-```bash
-python fault_diagnosis.py evaluate --rpm 75 --domain time --model tree --seed 42 --allow-unverified-data
-```
-
-The holdout uses 780 training and 195 test observations. No original acquisition-run identifiers are available in the bundled tables. Generalization to independent acquisitions is therefore not established.
-
-All local regression tests passed on Python 3.9.6 using `requirements-lock.txt`. GitHub Actions separately checks Linux compatibility on Python 3.11 and 3.12.
+Local validation: 50 Python tests and JavaScript parity for all 117 real demo examples. GitHub Actions checks Python 3.11/3.12 and each browser model; consult the run for the published commit for remote status.

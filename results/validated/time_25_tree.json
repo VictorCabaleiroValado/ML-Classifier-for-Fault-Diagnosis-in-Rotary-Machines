@@ -1004,7 +1004,7 @@
     "scipy": "1.13.1",
     "scikit-learn": "1.6.1"
   },
-  "caveat": "Exploratory holdout results; original run independence and label provenance require source verification.",
+  "caveat": "Exploratory row holdout; labels trace source filenames. Related acquisitions may cross the split; independent-run and independent-machine generalization are not established.",
   "tasks": {
     "fault_detected": {
       "warnings": [],

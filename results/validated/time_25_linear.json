@@ -1004,18 +1004,18 @@
     "scipy": "1.13.1",
     "scikit-learn": "1.6.1"
   },
-  "caveat": "Exploratory holdout results; original run independence and label provenance require source verification.",
+  "caveat": "Exploratory row holdout; labels trace source filenames. Related acquisitions may cross the split; independent-run and independent-machine generalization are not established.",
   "tasks": {
     "fault_detected": {
       "warnings": [],
-      "mse": 0.006954770988634396,
-      "r2": 0.7216261401654497,
+      "mse": 0.0069547709886343765,
+      "r2": 0.7216261401654505,
       "caveat": "Regression on integer category codes is a legacy baseline, not classification accuracy."
     },
     "fault_category": {
       "warnings": [],
-      "mse": 17.07961983146643,
-      "r2": 0.8651608960673702,
+      "mse": 17.079619831466616,
+      "r2": 0.8651608960673688,
       "caveat": "Regression on integer category codes is a legacy baseline, not classification accuracy."
     }
   }

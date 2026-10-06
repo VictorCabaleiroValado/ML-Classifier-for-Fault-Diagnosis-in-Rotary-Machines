@@ -22,5 +22,5 @@ jobs:
         with:
           node-version: '22'
       - run: node demo/check_browser_model.cjs demo/data.json
-      - run: node demo/check_browser_model.cjs demo/synthetic-50.json
-      - run: node demo/check_browser_model.cjs demo/synthetic-75.json
+      - run: node demo/check_browser_model.cjs demo/real-50.json
+      - run: node demo/check_browser_model.cjs demo/real-75.json

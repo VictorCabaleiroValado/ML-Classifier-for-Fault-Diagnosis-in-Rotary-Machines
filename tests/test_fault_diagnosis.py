@@ -154,7 +154,7 @@ def test_corrupt_download_rejected(tmp_path):
 @pytest.mark.parametrize('domain', ['time', 'frequency'])
 @pytest.mark.parametrize('rpm', [25, 50, 75])
 def test_real_tables_are_valid_and_tree_runs(domain, rpm):
-    result = fd.evaluate(fd.feature_path(rpm, domain), domain, allow_unverified_data=True)
+    result = fd.evaluate(fd.feature_path(rpm, domain), domain)
     assert result['train_rows'] == 780
     assert result['test_rows'] == 195
     assert len(result['tasks']['fault_category']['labels']) == 39
@@ -183,9 +183,15 @@ def test_extractor_entrypoints_help(script):
     assert '--manifest' in run.stdout
 
 
-def test_legacy_tables_require_explicit_opt_in():
+def test_legacy_tables_require_explicit_opt_in(tmp_path, monkeypatch):
+    import hashlib
+    source = fd.feature_path(25, 'time')
+    (tmp_path / 'data').mkdir()
+    (tmp_path / 'data/provenance.json').write_text(json.dumps({
+        hashlib.sha256(source.read_bytes()).hexdigest(): {'status': 'unverified_legacy'}}))
+    monkeypatch.setattr(fd, 'ROOT', tmp_path)
     with pytest.raises(ValueError, match='allow-unverified-data'):
-        fd.evaluate(fd.feature_path(75, 'time'), 'time')
+        fd.evaluate(source, 'time')
 
 
 def test_legacy_layout_preserves_named_sensor_order(tmp_path):
@@ -210,10 +216,11 @@ def test_outputs_use_classifier_names():
     assert fd.feature_path(75,'time').name == 'time_domain_feature_extraction_75.csv'
 
 
-def test_rebuilt_domains_match_manifest_labels():
-    manifest = pd.read_csv(fd.ROOT/'data/manifests/25_rpm.csv')
+@pytest.mark.parametrize('rpm', [25,50,75])
+def test_rebuilt_domains_match_manifest_labels(rpm):
+    manifest = pd.read_csv(fd.ROOT/f'data/manifests/{rpm}_rpm.csv')
     for domain in ('time','frequency'):
-        df, _, y = fd.load_features(fd.feature_path(25,domain),domain)
+        df, _, y = fd.load_features(fd.feature_path(rpm,domain),domain)
         assert df.source_file.tolist() == manifest.filename.tolist()
         pd.testing.assert_frame_equal(y,manifest[list(fd.TARGETS)])
         assert y.fault_category.value_counts().eq(25).all()
@@ -227,4 +234,4 @@ def test_provenance_matches_current_bundled_files():
         for rpm in (25,50,75):
             path=fd.feature_path(rpm,domain)
             record=catalog[hashlib.sha256(path.read_bytes()).hexdigest()]
-            assert record['status'] == ('reconstructed_from_raw' if rpm==25 else 'unverified_legacy')
+            assert record['status'] == 'reconstructed_from_raw'
