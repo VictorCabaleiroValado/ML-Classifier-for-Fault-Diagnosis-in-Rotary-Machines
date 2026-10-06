@@ -24,3 +24,5 @@ python fault_diagnosis.py evaluate --rpm 75 --domain frequency --model logistic 
 No `--allow-unverified-data` flag is needed for current tables. Reports include both tasks, matrices, source hashes, split indices and dependency versions. Regression MSE/R² for the linear baseline is not classification accuracy. Historical reports before recovery remain in Git history.
 
 Local validation: 50 Python tests and JavaScript parity for all 117 real demo examples. GitHub Actions checks Python 3.11/3.12 and each browser model; consult the run for the published commit for remote status.
+
+The published demo metrics are checked by running the serialized tree over all 195 held-out rows per speed. A fresh tree fit can resolve impurity ties differently across operating systems despite the same seed and pinned dependencies; its metrics need not be bit-identical to the published model. Export-time checks compare the serialized tree with its original fitted estimator over the complete holdout.
