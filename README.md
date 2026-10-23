@@ -1,5 +1,7 @@
 # Machine Learning for Rotary Machine Fault Diagnosis
 
+![Interactive demo: 25 RPM, selected bearing-fault case, First quarter](docs/demo-first-quarter.png)
+
 **[Try the interactive vibration demo](https://victorcabaleirovalado.github.io/demo/)** — explore a real signal and run the classifier in your browser.
 
 **Vibration analysis · Feature engineering · Reproducible evaluation**
