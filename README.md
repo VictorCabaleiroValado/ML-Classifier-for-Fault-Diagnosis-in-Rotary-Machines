@@ -1,4 +1,4 @@
-# Machine Learning for Rotating Machinery Fault Diagnosis | Python & ML
+# ML for Rotary Machine Fault Diagnosis | Python & Machine Learning
 
 ![Interactive demo: 25 RPM, selected bearing-fault case, First quarter](docs/demo-first-quarter.png)
 
